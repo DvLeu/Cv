@@ -1,0 +1,311 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: David León Salas
+  headline:
+  location: Veracruz, Ver 
+  mail: davidleonsalasdev@email.com
+  photo:
+  phone: +52 2291779456
+  social_networks:
+    - network: GitHub
+      username: DvLeu
+  custom_connections:
+  sections:
+    About me:
+      - Backend-focused computer Systems Engineering graduate (expected 2026) specialized in designing and building RESTful APIs using Python (FastAPI, Django) and Java (Spring), with solid database management experience in SQL Server and relational systems. During my professional internship, I applied Python and SQL Server for data processing and supported business operations through Power BI dashboards. I also have working knowledge of frontend technologies, enabling effective integration between backend services and user interfaces. Experienced with Docker, CI/CD pipelines, and Linux environments. Fluent in English (B2) and native Spanish speaker.
+      
+    education:
+      - institution: TecNM - Campus Instituto Tecnológico de Veracruz
+        area: Computer Systems Engineering
+        degree: Bachelor’s
+        date:
+        start_date: 2021-08
+        end_date: 2026-04
+        location: Veracruz, Mexico
+        summary:
+        highlights:
+         - Participation on the TECNM coding cup Achieved 47th place.
+         - Member of the CPC(Club de programación competitiva).
+         - GPA 90.
+    experience:
+      - company: TenarisTamas
+        position: Data Analyst Intern
+        date:
+        start_date: 2026-01
+        end_date: present
+        location: Veracruz, Mexico
+        summary:
+        highlights:
+        - Automated daily data ingestion processes using Python, Windows batch scripts (.bat), and scheduled routines in a virtual machine environment.
+        - Developed and maintained Power BI dashboards integrating Python scripts, DAX measures, and Power Query transformations.
+        - Managed KPI tracking, objective loading, and performance monitoring (real vs. standard values).
+        - Integrated and validated data from multiple sources including CSV, XML, Access, Excel, PostgreSQL, and Microsoft SQL Server.
+        - Supported permission management and workflow automation within reporting environments
+        - Utilized PowerApps to streamline objective management and operational data processes.
+      - company: NeoDigital
+        position: Backend Developer Intern
+        date:
+        start_date: 2025-03
+        end_date: 2025-10
+        location: Veracruz, Mexico
+        summary:
+        highlights:
+        - Developed a modular RESTful API for the conversion, query, and management of SAT (Mexican Tax Administration Service) official catalogs.
+        - Built endpoints to upload Excel files, transform them into structured JSON, and store them in MongoDB.
+        - Applied layered architecture principles (routers, services, utils, repositories).
+        - Used an asynchronous MongoDB driver and performed data validation using Pydantic.
+        - Big Data Conversion Script (Designed a script to process SAT official catalogs in bulk, transforming Excel files into structured JSON formats ready to be consumed by APIs.)
+      - company: Instituto Tecnológico de Veracruz
+        position: Research Project Developer (Internship Contract)
+        date:
+        start_date: 2024-12
+        end_date: 2025-12
+        location: Veracruz, Mexico
+        summary:
+        highlights:
+        - Contributed to an academic research project focused on improving programming education through technological tools. Participated in the development of the research framework and protocol design, and led the implementation of software solutions to enhance learning outcomes.
+        - Designed and developed an interactive graphical tool aimed at helping students understand fundamental programming structures across different languages, reducing the learning curve through intuitive visualization. Collaborated on the development of a pseudocode-to-Python translation system to facilitate students’ transition from algorithmic thinking to formal programming syntax.
+    projects:
+      - name: '[Lnap](https://lnap.dev/)'
+        date:
+        start_date: 2024-12
+        end_date: 2025-12
+        location: Veracruz, Mexico
+        summary: Research-driven software project focused on developing interactive tools to improve programming education, including a graphical learning interface and a pseudocode-to-Python translation system.
+        highlights:
+          - Designed an interactive visualization tool to explain fundamental programming structures across multiple languages.
+          - Developed a pseudocode-to-Python translator to support students’ transition to formal programming syntax.
+          - Contributed to research framework and protocol development within an academic environment.
+      - name: '[RustParser](https://github.com/DvLeu/RustCodeAnalyzer)'
+        date: 
+        start_date: 2024-01
+        end_date: 2024-05
+        location: Veracruz, Mexico
+        summary: Compiler design project developed with Java and JavaCC to analyze and validate Rust syntax through custom lexical and grammatical definitions.
+        highlights:
+          - Implemented a lexical analyzer and parser using JavaCC based on formal grammar rules.
+          - Defined tokenization and syntax validation for Rust constructs including variables, functions, control structures, and expressions.
+          - Supported single-line and multi-line comments, arithmetic and logical expressions.
+          - Designed and tested grammar rules to ensure structural correctness of Rust source code.
+    skills:
+      - label: Programming Languages
+        details: Python, Java, Rust, C++, SQL, Shell Scripting, JavaScript, TypeScript
+      - label: Backend & Frameworks
+        details: FastAPI, Django, Spring, Flask, .NET, REST API design, Angular, Vue, React, NodeJS
+      - label: Databases
+        details: Microsoft SQL Server, PostgreSQL, MySQL, SQLite, MongoDB, Access
+      - label: Data & BI
+        details: Power BI, DAX, Power Query, Excel automation, KPI tracking
+      - label: DevOps & Systems
+        details: Docker, CI/CD, Linux, Windows automation (.bat)
+    certifications: 
+      - label: Samsung Innovation Campus (2025)
+        details: Artificial Intelligence & Leadership – Samsung Electronics & Universidad de Monterrey
+
+      - label: IBM AI & Python Specialization (2025)
+        details: Python for Data Science, AI Development with Flask, Introduction to AI, Hands-on Linux & Git
+
+      - label: Cisco Data Analytics Essentials (2025)
+        details: Data analysis fundamentals, visualization, and business insights
+
+      - label: Cisco Python Essentials 1 & 2 (2025)
+        details: Python programming fundamentals and intermediate concepts
+
+      - label: Cisco Networking Basics (2025)
+        details: Network fundamentals and infrastructure concepts
+
+      - label: Cisco Introduction to Cybersecurity (2025)
+        details: Core cybersecurity principles and threat awareness
+
+      - label: Introduction to Software Engineering (2025)
+        details: Software development lifecycle and engineering principles
+
+      - label: 6th Autumn School on Distributed Systems (2025)
+        details: Distributed systems and next-generation network concepts
+    # any_section_title:
+    #   - You can use any section title you want.
+    #   - 'You can choose any entry type for the section: `TextEntry`, `ExperienceEntry`, `EducationEntry`, `PublicationEntry`, `BulletEntry`, `NumberedEntry`, or `ReversedNumberedEntry`.'
+    #   - Markdown syntax is supported everywhere.
+    #   - The `design` field in YAML gives you control over almost any aspect of your CV design.
+    #   - See the [documentation](https://docs.rendercv.com) for more details.
+design:
+  theme: engineeringresumes
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 79, 144)
+  #   headline: rgb(0, 79, 144)
+  #   connections: rgb(0, 79, 144)
+  #   section_titles: rgb(0, 79, 144)
+  #   links: rgb(0, 79, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: '2026-02-28'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
