@@ -110,7 +110,7 @@ Backend-focused computer Systems Engineering graduate (expected 2026) specialize
   main-column-second-row: [
     - Participation on the TECNM coding cup Achieved 47th place.
 
-    - Member of the CPC(Club de programación competitiva).
+    - Member of the CPC (Club de programación competitiva).
 
     - GPA 90.
 
