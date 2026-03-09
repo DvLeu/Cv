@@ -108,11 +108,11 @@ Backend-focused computer Systems Engineering graduate (expected 2026) specialize
 
   ],
   main-column-second-row: [
-    - Participation on the TECNM coding cup Achieved 47th place.
+    - Graduate from the Samsung Innovation Campus.
 
     - Member of the CPC (Club de programación competitiva).
 
-    - GPA 90.
+    - Average 90\/100.
 
   ],
 )
@@ -125,7 +125,7 @@ Backend-focused computer Systems Engineering graduate (expected 2026) specialize
 
   ],
   [
-    Jan 2026 – present
+    Feb 2026 – present
 
   ],
   main-column-second-row: [
@@ -185,6 +185,39 @@ Backend-focused computer Systems Engineering graduate (expected 2026) specialize
 )
 
 == Projects
+
+#regular-entry(
+  [
+    #strong[HealthMed Chat – Medical Diagnosis API] -- #strong[Veracruz, Mexico]
+
+  ],
+  [
+    Jan 2024 – May 2024
+
+  ],
+  main-column-second-row: [
+    #summary[Developed a backend API that processes patient symptoms and generates probable diagnoses using rule-based filtering and machine learning scoring.]
+
+    - Designed a Python API that receives patient attributes (age, gender, weight, height) and symptoms to perform medical inference.
+
+    - Implemented BMI calculation and symptom validation pipeline before diagnostic processing.
+
+    - Built a disease filtering system based on gender compatibility and symptom matching using a structured medical dataset.
+
+    - Developed a two-stage diagnostic engine
+
+    - Guided symptom questioning based on frequent symptom patterns.
+
+      - Adaptive questioning based on most probable diseases.
+
+      - Implemented a hybrid scoring system combining classical scoring and KNN similarity to rank potential diagnoses.
+
+    - Generated Top-5 probable diseases with diagnostic metrics.
+
+    - Added session logging capturing symptoms, results, and evaluation metrics for analysis.
+
+  ],
+)
 
 #regular-entry(
   [

@@ -24,14 +24,14 @@ cv:
         location: Veracruz, Mexico
         summary:
         highlights:
-         - Participation on the TECNM coding cup Achieved 47th place.
+         - Graduate from the Samsung Innovation Campus.
          - Member of the CPC (Club de programación competitiva).
-         - GPA 90.
+         - Average 90/100.
     experience:
       - company: TenarisTamas
         position: Data Analyst Intern
         date:
-        start_date: 2026-01
+        start_date: 2026-02
         end_date: present
         location: Veracruz, Mexico
         summary:
@@ -61,11 +61,30 @@ cv:
         start_date: 2024-12
         end_date: 2025-12
         location: Veracruz, Mexico
+        program : Samsung Innovation Campus
         summary:
         highlights:
         - Contributed to an academic research project focused on improving programming education through technological tools. Participated in the development of the research framework and protocol design, and led the implementation of software solutions to enhance learning outcomes.
         - Designed and developed an interactive graphical tool aimed at helping students understand fundamental programming structures across different languages, reducing the learning curve through intuitive visualization. Collaborated on the development of a pseudocode-to-Python translation system to facilitate students’ transition from algorithmic thinking to formal programming syntax.
     projects:
+      - name: HealthMed Chat – Medical Diagnosis API
+        date:
+        start_date: 2024-01
+        end_date: 2024-05
+        location: Veracruz, Mexico
+        summary: Developed a backend API that processes patient symptoms and generates probable diagnoses using rule-based filtering and machine learning scoring.
+        highlights:
+          - Designed a Python API that receives patient attributes (age, gender, weight, height) and symptoms to perform medical inference.
+          - Implemented BMI calculation and symptom validation pipeline before diagnostic processing.
+          - Built a disease filtering system based on gender compatibility and symptom matching using a structured medical dataset.
+          - Developed a two-stage diagnostic engine
+          - Guided symptom questioning based on frequent symptom patterns.
+            - Adaptive questioning based on most probable diseases.
+            - Implemented a hybrid scoring system combining classical scoring and KNN similarity to rank potential diagnoses.
+          - Generated Top-5 probable diseases with diagnostic metrics.
+          - Added session logging capturing symptoms, results, and evaluation metrics for analysis.
+        tech : Python, REST API, NLP pipelines, KNN, medical datasets
+
       - name: '[Lnap](https://lnap.dev/)'
         date:
         start_date: 2024-12

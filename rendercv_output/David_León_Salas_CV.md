@@ -11,18 +11,18 @@ Backend-focused computer Systems Engineering graduate (expected 2026) specialize
 # Education
 ## **TecNM - Campus Instituto Tecnológico de Veracruz**, Bachelor’s in Computer Systems Engineering -- Veracruz, MexicoAug 2021 – Apr 2026
 
-- Participation on the TECNM coding cup Achieved 47th place.
+- Graduate from the Samsung Innovation Campus.
 
 - Member of the CPC (Club de programación competitiva).
 
-- GPA 90.
+- Average 90/100.
 
 
 
 # Experience
 ## **Data Analyst Intern**, TenarisTamas -- Veracruz, Mexico
 
-Jan 2026 – present
+Feb 2026 – present
 
 - Automated daily data ingestion processes using Python, Windows batch scripts (.bat), and scheduled routines in a virtual machine environment.
 
@@ -65,6 +65,32 @@ Dec 2024 – Dec 2025
 
 
 # Projects
+## **HealthMed Chat – Medical Diagnosis API** -- **Veracruz, Mexico**
+
+Jan 2024 – May 2024
+
+Developed a backend API that processes patient symptoms and generates probable diagnoses using rule-based filtering and machine learning scoring.
+
+- Designed a Python API that receives patient attributes (age, gender, weight, height) and symptoms to perform medical inference.
+
+- Implemented BMI calculation and symptom validation pipeline before diagnostic processing.
+
+- Built a disease filtering system based on gender compatibility and symptom matching using a structured medical dataset.
+
+- Developed a two-stage diagnostic engine
+
+- Guided symptom questioning based on frequent symptom patterns.
+
+  - Adaptive questioning based on most probable diseases.
+
+  - Implemented a hybrid scoring system combining classical scoring and KNN similarity to rank potential diagnoses.
+
+- Generated Top-5 probable diseases with diagnostic metrics.
+
+- Added session logging capturing symptoms, results, and evaluation metrics for analysis.
+
+
+
 ## **[Lnap](https://lnap.dev/)** -- **Veracruz, Mexico**
 
 Dec 2024 – Dec 2025
