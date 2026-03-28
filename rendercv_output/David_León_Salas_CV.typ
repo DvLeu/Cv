@@ -137,8 +137,6 @@ Backend-focused computer Systems Engineering graduate (expected 2026) specialize
 
     - Integrated and validated data from multiple sources including CSV, XML, Access, Excel, PostgreSQL, and Microsoft SQL Server.
 
-    - Supported permission management and workflow automation within reporting environments
-
     - Utilized PowerApps to streamline objective management and operational data processes.
 
   ],
@@ -146,7 +144,7 @@ Backend-focused computer Systems Engineering graduate (expected 2026) specialize
 
 #regular-entry(
   [
-    #strong[Backend Developer Intern], NeoDigital -- Veracruz, Mexico
+    #strong[Python Backend Developer Intern], NeoDigital -- Veracruz, Mexico
 
   ],
   [
@@ -169,7 +167,7 @@ Backend-focused computer Systems Engineering graduate (expected 2026) specialize
 
 #regular-entry(
   [
-    #strong[Research Project Developer (Internship Contract)], Instituto Tecnológico de Veracruz -- Veracruz, Mexico
+    #strong[Python Research Project Developer (Internship Contract)], Instituto Tecnológico de Veracruz -- Veracruz, Mexico
 
   ],
   [
@@ -177,9 +175,13 @@ Backend-focused computer Systems Engineering graduate (expected 2026) specialize
 
   ],
   main-column-second-row: [
-    - Contributed to an academic research project focused on improving programming education through technological tools. Participated in the development of the research framework and protocol design, and led the implementation of software solutions to enhance learning outcomes.
+    - Built REST API endpoints using Flask with request validation using Pydantic and JSON schema validation.
 
-    - Designed and developed an interactive graphical tool aimed at helping students understand fundamental programming structures across different languages, reducing the learning curve through intuitive visualization. Collaborated on the development of a pseudocode-to-Python translation system to facilitate students’ transition from algorithmic thinking to formal programming syntax.
+    - Integrated Ollama open-source LLM models for conversational AI interactions with streaming responses.
+
+    - Implemented clean architecture layers separating controllers, services, repositories, and utilities for maintainability.
+
+    - Deployed application on Microsoft Azure using App Services with Docker containerization for scalability.
 
   ],
 )
@@ -188,7 +190,7 @@ Backend-focused computer Systems Engineering graduate (expected 2026) specialize
 
 #regular-entry(
   [
-    #strong[HealthMed Chat – Medical Diagnosis API] -- #strong[Veracruz, Mexico]
+    #strong[Python Developer (HealthMed Chat – Medical Diagnosis API)] -- #strong[Veracruz, Mexico]
 
   ],
   [
