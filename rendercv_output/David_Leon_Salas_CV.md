@@ -20,7 +20,7 @@ Python Backend Developer with hands-on experience building RESTful APIs using Fa
 
 
 # Experience
-## **Data Analyst Intern**, TenarisTamas -- Veracruz, Mexico
+## **Data Analyst Intern**, TenarisTamsa -- Veracruz, Mexico
 
 Feb 2026 – present
 

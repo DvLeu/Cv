@@ -124,7 +124,7 @@ Python Backend Developer with hands-on experience building RESTful APIs using Fa
 
 #regular-entry(
   [
-    #strong[Data Analyst Intern], TenarisTamas -- Veracruz, Mexico
+    #strong[Data Analyst Intern], TenarisTamsa -- Veracruz, Mexico
 
   ],
   [
