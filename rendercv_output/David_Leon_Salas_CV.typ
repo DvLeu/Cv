@@ -1,19 +1,21 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.1.0": *
+#import "@preview/rendercv:0.3.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "David León Salas",
+  title: "David León Salas - CV",
   footer: context { [#emph[David León Salas -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Apr 2026] ],
+  top-note: [ #emph[Last updated in May 2026] ],
   locale-catalog-language: "en",
+  text-direction: ltr,
   page-size: "us-letter",
-  page-top-margin: 0.7in,
-  page-bottom-margin: 0.7in,
-  page-left-margin: 0.7in,
-  page-right-margin: 0.7in,
-  page-show-footer: false,
-  page-show-top-note: true,
+  page-top-margin: 0.5in,
+  page-bottom-margin: 0.5in,
+  page-left-margin: 0.5in,
+  page-right-margin: 0.5in,
+  page-show-footer: true,
+  page-show-top-note: false,
   colors-body: rgb(0, 0, 0),
   colors-name: rgb(0, 0, 0),
   colors-headline: rgb(0, 0, 0),
@@ -33,89 +35,118 @@
   typography-font-size-body: 10pt,
   typography-font-size-name: 25pt,
   typography-font-size-headline: 10pt,
-  typography-font-size-connections: 10pt,
-  typography-font-size-section-titles: 1.2em,
+  typography-font-size-connections: 9pt,
+  typography-font-size-section-titles: 1.3em,
   typography-small-caps-name: false,
   typography-small-caps-headline: false,
   typography-small-caps-connections: false,
   typography-small-caps-section-titles: false,
-  typography-bold-name: false,
+  typography-bold-name: true,
   typography-bold-headline: false,
   typography-bold-connections: false,
   typography-bold-section-titles: true,
-  links-underline: true,
+  links-underline: false,
   links-show-external-link-icon: false,
   header-alignment: center,
   header-photo-width: 3.5cm,
-  header-space-below-name: 0.7cm,
-  header-space-below-headline: 0.7cm,
-  header-space-below-connections: 0.7cm,
+  header-space-below-name: 0.5cm,
+  header-space-below-headline: 0.5cm,
+  header-space-below-connections: 0.5cm,
   header-connections-hyperlink: true,
-  header-connections-show-icons: false,
-  header-connections-display-urls-instead-of-usernames: true,
-  header-connections-separator: "|",
-  header-connections-space-between-connections: 0.5cm,
-  section-titles-type: "with_full_line",
+  header-connections-show-icons: true,
+  header-connections-display-urls-instead-of-usernames: false,
+  header-connections-separator: "•",
+  header-connections-space-between-connections: 0.4cm,
+  section-titles-type: "centered_with_centered_partial_line",
   section-titles-line-thickness: 0.5pt,
   section-titles-space-above: 0.5cm,
-  section-titles-space-below: 0.3cm,
+  section-titles-space-below: 0.2cm,
   sections-allow-page-break: true,
-  sections-space-between-text-based-entries: 0.15cm,
-  sections-space-between-regular-entries: 0.42cm,
+  sections-space-between-text-based-entries: 0.3em,
+  sections-space-between-regular-entries: 1em,
   entries-date-and-location-width: 4.15cm,
-  entries-side-space: 0cm,
+  entries-side-space: 0.2cm,
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
   entries-short-second-row: false,
+  entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
-  entries-summary-space-above: 0.08cm,
-  entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
-  entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
-  entries-highlights-space-left: 0cm,
-  entries-highlights-space-above: 0.08cm,
-  entries-highlights-space-between-items: 0.08cm,
-  entries-highlights-space-between-bullet-and-text: 0.3em,
+  entries-summary-space-above: 0cm,
+  entries-highlights-bullet:  "•" ,
+  entries-highlights-nested-bullet:  "•" ,
+  entries-highlights-space-left: 0.15cm,
+  entries-highlights-space-above: 0cm,
+  entries-highlights-space-between-items: 0cm,
+  entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 4,
-    day: 26,
+    month: 5,
+    day: 10,
   ),
 )
 
 
 = David León Salas
 
-  #headline([Python Backend Developer])
+  #headline([Junior Python Backend Developer])
 
 #connections(
-  [Veracruz, Ver],
-  [#link("tel:+52-229-177-9456", icon: false, if-underline: false, if-color: false)[229 177 9456]],
-  [#link("https://github.com/DvLeu", icon: false, if-underline: false, if-color: false)[github.com\/DvLeu]],
-  [#link("https://www.dvleu.dev/", icon: false, if-underline: false, if-color: false)[dvleu.dev]],
+  [#connection-with-icon("location-dot")[Veracruz, Ver]],
+  [#link("mailto:davidleonsalasdev@email.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[davidleonsalasdev\@email.com]]],
+  [#link("tel:+52-229-177-9456", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[229 177 9456]]],
+  [#link("https://github.com/DvLeu", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[DvLeu]]],
+  [#link("https://www.dvleu.dev/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("globe")[dvleu.dev]]],
 )
 
 
 == About me
 
-Python Backend Developer with hands-on experience building RESTful APIs using FastAPI and Flask, applying clean architecture across 3 internships. Familiar with Docker, CI\/CD, and Azure deployments. Completing a Computer Systems Engineering degree (90\/100 avg, graduating May 2026). Fluent in English (B2) and native Spanish speaker.
+Junior Python Backend Developer with hands-on experience shipping production-grade RESTful APIs in FastAPI and Flask. 3 internships across backend development and data analytics, applying layered architecture, async I\/O patterns, and end-to-end data validation. Comfortable with Docker containerization, CI\/CD pipelines, and Microsoft Azure deployments. B.S. in Computer Systems Engineering (May 2026), 90\/100 GPA. English B2, native Spanish.
+
+== Skills
+
+#strong[Backend (Python):] FastAPI, Flask, Django, Pydantic, Motor, async\/await, RESTful APIs
+
+#strong[Databases:] MongoDB, PostgreSQL, Microsoft SQL Server, MySQL
+
+#strong[DevOps & Cloud:] Docker, Git, CI\/CD pipelines, Microsoft Azure (App Services), Linux
+
+#strong[Architecture & Design:] Layered architecture, REST API design, OOP, schema validation
+
+#strong[Data & Visualization:] Power BI, DAX, Power Query, PowerApps, Matplotlib, Plotly, Selenium, ETL
+
+#strong[Additional Languages & Tools:] Java (Spring), JavaScript, TypeScript, SQL, React
+
+#strong[Methodologies:] Agile, Scrum, code review, version control
+
+== Certifications
+
+#strong[Django Application Development with SQL and Databases — IBM (Oct 2025):] Django ORM, models, views, templates, and SQL database integration.
+
+#strong[Developing AI Applications with Python and Flask — IBM (May 2025):] Flask REST APIs, Watson AI services, and cloud deployment workflows.
+
+#strong[Samsung Innovation Campus — AI & Leadership, Samsung Electronics & UDEM (Apr 2025):] 150-hour intensive program covering ML, neural networks, and leadership.
+
+#strong[Foundations of Agile Project Management — Google (May 2026):] Agile principles, Scrum framework, and sprint planning fundamentals.
+
+#strong[IBM Python Developer Track (6 courses, 2025):] Python for Data Science, Intro to AI, Hands-on Linux, Git & GitHub, Software Engineering, Python Essentials.
 
 == Education
 
 #education-entry(
   [
-    #strong[TecNM - Campus Instituto Tecnológico de Veracruz], Bachelor's in Computer Systems Engineering -- Veracruz, Mexico
+    #strong[TecNM - Instituto Tecnológico de Veracruz], B.S. in Computer Systems Engineering -- Veracruz, Mexico
 
   ],
   [
     Aug 2021 – May 2026
 
   ],
+  degree-column: [
+    #strong[B.S.]
+  ],
   main-column-second-row: [
-    - GPA: 90\/100.
-
-    - Graduate of the Samsung Innovation Campus (AI & Leadership program).
-
-    - Member of the Competitive Programming Club (CPC).
+    - GPA: 90\/100. Member of the Competitive Programming Club (CPC).
 
   ],
 )
@@ -124,7 +155,7 @@ Python Backend Developer with hands-on experience building RESTful APIs using Fa
 
 #regular-entry(
   [
-    #strong[Data Analyst Intern], TenarisTamsa -- Veracruz, Mexico
+    #strong[TenarisTamsa], Data Analyst Intern -- Veracruz, Mexico
 
   ],
   [
@@ -132,22 +163,18 @@ Python Backend Developer with hands-on experience building RESTful APIs using Fa
 
   ],
   main-column-second-row: [
-    - Automated daily ingestion from 5+ data sources (CSV, XML, Access, Excel, PostgreSQL, SQL Server) using Python and batch scripts, saving \~1 hr\/day of manual processing across recurring workflows.
+    - Save \~1 hr\/day of manual processing by engineering automated ETL pipelines that ingest data from 5+ heterogeneous sources (CSV, XML, Access, Excel, PostgreSQL, SQL Server) with Python, freeing analysts to focus on insights instead of data prep.
 
-    - Developed multiple web scrapers using Python and Selenium to automate data downloads from internal systems, packaged as standalone executables (.exe via PyInstaller) and deployed on a virtual machine for scheduled, dependency-free runs.
+    - Reduced a recurring 30-minute manual download task to \~10 seconds (\~180x faster) by building Selenium-based web scrapers that auto-refresh CSV datasets feeding business dashboards, packaged as standalone .exe binaries via PyInstaller and deployed on a scheduled VM with file-based execution logging (run timestamps, downloaded files, durations) for production troubleshooting.
 
-    - Contributed to the development of a PowerApps application for full tube defect cycle management — centralizing workflows previously handled via Excel and email into a single system, using PowerFX for backend logic.
-
-    - Contributed to the development of a Power BI dashboard for CTT (Carga al Mil de Acería) steel mill load tracking, integrating SQL queries and Python scripts for data calculations and preparation.
-
-    - Invited to present Python automation work in knowledge-sharing sessions for fellow interns.
+    - Co-built a PowerApps + PowerFX application that centralized tube-defect lifecycle management into a single system, owning the architecture and core features, replacing a fragmented Excel + email workflow and cutting handoff delays for the operations team.
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Python Backend Developer Intern], NeoDigital -- Veracruz, Mexico
+    #strong[NeoDigital], Python Backend Developer Intern -- Veracruz, Mexico
 
   ],
   [
@@ -155,142 +182,43 @@ Python Backend Developer with hands-on experience building RESTful APIs using Fa
 
   ],
   main-column-second-row: [
-    - Built a modular RESTful API (FastAPI + MongoDB) to manage and query official SAT catalogs for internal tax compliance workflows.
+    - Shipped a production-grade FastAPI + MongoDB RESTful API for SAT fiscal-catalog management, applying layered architecture (routers \/ services \/ repositories) and async I\/O via Motor to support core tax-compliance workflows.
 
-    - Implemented endpoints to upload Excel files, convert them to structured JSON, and store them in MongoDB using an async driver (Motor).
+    - Slashed catalog onboarding from hours to seconds by engineering Excel-to-JSON ingestion endpoints with Pydantic schema validation, preventing malformed records from reaching production and ensuring end-to-end data integrity.
 
-    - Enforced data integrity using Pydantic models and layered architecture (routers \/ services \/ repositories \/ utils).
-
-    - Wrote a bulk conversion script to process SAT Excel catalogs into JSON, reducing catalog onboarding from a manual multi-hour task to an automated process.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Python Backend Developer — Research Internship], Instituto Tecnológico de Veracruz -- Veracruz, Mexico
-
-  ],
-  [
-    Dec 2024 – Dec 2025
-
-  ],
-  main-column-second-row: [
-    - Developed REST API endpoints with Flask, integrating Ollama open-source LLMs with streaming responses for a conversational AI research tool.
-
-    - Applied clean architecture (controllers \/ services \/ repositories \/ utils) to keep the codebase maintainable and testable.
-
-    - Deployed the application on Microsoft Azure App Services using Docker, with reproducible builds through a CI\/CD pipeline.
+    - Standardized catalog ingestion across the team by authoring a reusable bulk-conversion script that became the default onboarding pipeline for new SAT catalogs.
 
   ],
 )
 
 == Projects
 
-#regular-entry(
+  #regular-entry(
   [
-    #strong[#link("https://www.dvleu.dev/")[Personal Portfolio — dvleu.dev]] -- #strong[Veracruz, Mexico]
+    #strong[Lnap — Educational Programming Tools] -- #strong[Veracruz, Mexico]
 
   ],
   [
-    Jan 2026 – present
-
   ],
   main-column-second-row: [
-    #summary[Personal portfolio website built from scratch with React, TailwindCSS, and Vite — deployed with a custom domain.]
+    - Built an interactive Flask-based visualization platform that explains programming structures across multiple languages, adopted in active classroom sessions and validated by 80+ first-semester students through structured feedback surveys.
 
-    - Designed and developed the full site from scratch without AI code-generation tools, covering UI, layout, and responsiveness.
-
-    - Built with React and TailwindCSS, bundled with Vite, and deployed to production at dvleu.dev.
-
-    - Source code available at github.com\/DvLeu\/Portafolio.
+    - Developed a pseudocode-to-Python translator in Flask + Python under an institutional research contract, helping students bridge algorithmic thinking and formal syntax during live class sessions.
 
   ],
 )
 
-#regular-entry(
+  #regular-entry(
   [
     #strong[HealthMed Chat — Medical Diagnosis API] -- #strong[Veracruz, Mexico]
 
   ],
   [
-    Jan 2024 – May 2024
-
   ],
   main-column-second-row: [
-    #summary[Academic backend project — a Python API that infers probable diagnoses from patient symptoms using rule-based filtering and KNN scoring.]
+    - Designed a Flask REST API that returns a ranked Top-5 diagnosis list from patient inputs (age, gender, BMI, symptoms) via a two-stage inference engine — rule-based filtering followed by KNN scoring with confidence values.
 
-    - Designed an API receiving patient attributes (age, gender, BMI, symptoms) and returning a ranked Top-5 diagnosis list with confidence scores.
-
-    - Built a two-stage engine — symptom\/gender filtering followed by KNN + classical scoring to rank results.
-
-    - Added session logging to capture inputs, outputs, and metrics for analysis.
+    - Instrumented structured session logging of inputs, outputs, and latency metrics to enable post-hoc accuracy evaluation and model performance analysis.
 
   ],
 )
-
-#regular-entry(
-  [
-    #strong[#link("https://lnap.dev/")[Lnap]] -- #strong[Veracruz, Mexico]
-
-  ],
-  [
-    Dec 2024 – Dec 2025
-
-  ],
-  main-column-second-row: [
-    #summary[Research project developing educational programming tools under an institutional contract.]
-
-    - Built an interactive visualization tool to explain programming structures across multiple languages, used in academic sessions.
-
-    - Developed a pseudocode-to-Python translator to help students transition to formal syntax.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[#link("https://github.com/DvLeu/RustCodeAnalyzer")[RustParser]] -- #strong[Veracruz, Mexico]
-
-  ],
-  [
-    Jan 2024 – May 2024
-
-  ],
-  main-column-second-row: [
-    #summary[Academic compiler design project — lexical analyzer and parser for Rust syntax using Java and JavaCC.]
-
-    - Defined tokenization and grammar rules for Rust constructs (variables, functions, control flow, expressions).
-
-    - Validated structural correctness of Rust source files via custom JavaCC grammar, supporting comments and arithmetic\/logical expressions.
-
-  ],
-)
-
-== Skills
-
-#strong[Specialty: Python Backend:] FastAPI, Flask, Django, REST API design, async Python, Pydantic, clean architecture
-
-#strong[Databases:] MongoDB, PostgreSQL, Microsoft SQL Server, MySQL, SQLite
-
-#strong[DevOps & Cloud:] Docker, CI\/CD, Linux, Microsoft Azure (App Services), Git, GitHub
-
-#strong[Data & Automation:] Power BI, DAX, Power Query, PowerApps, web scraping, Excel automation
-
-#strong[Additional Languages:] Java (Spring), JavaScript, TypeScript, SQL, Shell Scripting
-
-#strong[Concepts:] Layered\/clean architecture, OOP, REST principles, agile\/scrum
-
-== Certifications
-
-#strong[Samsung Innovation Campus (2025):] Artificial Intelligence & Leadership — Samsung Electronics & Universidad de Monterrey
-
-#strong[IBM AI & Python Specialization (2025):] Python for Data Science, AI Development with Flask, Introduction to AI, Hands-on Linux & Git
-
-#strong[Cisco Data Analytics Essentials (2025):] Data analysis fundamentals, visualization, and business insights
-
-#strong[Cisco Python Essentials 1 & 2 (2025):] Python programming fundamentals and intermediate concepts
-
-#strong[6th Autumn School on Distributed Systems (2025):] Distributed systems and next-generation network concepts
-
-#strong[Cisco Introduction to Cybersecurity (2025):] Core cybersecurity principles and threat awareness
