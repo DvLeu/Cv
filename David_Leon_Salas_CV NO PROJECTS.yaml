@@ -15,7 +15,7 @@ cv:
       placeholder: dvleu.dev
   sections:
     About me:
-      - Junior Python Backend Developer with hands-on experience shipping production-grade RESTful APIs in FastAPI and Flask across 3 internships. Strong in layered architecture, async I/O, schema validation, Docker, and Azure deployments. B.S. in Computer Systems Engineering (May 2026), 90/100 GPA. English B2, native Spanish.
+      - Junior Python Backend Developer with hands-on experience shipping production-grade RESTful APIs in FastAPI and Flask. 3 internships across backend development and data analytics, applying layered architecture, async I/O patterns, and end-to-end data validation. Comfortable with Docker containerization, CI/CD pipelines, and Microsoft Azure deployments. B.S. in Computer Systems Engineering (May 2026), 90/100 GPA. English B2, native Spanish.
 
     education:
       - institution: TecNM - Instituto Tecnológico de Veracruz
@@ -38,9 +38,9 @@ cv:
         location: Veracruz, Mexico
         summary:
         highlights:
-          - Built Python ETL pipelines ingesting 5+ heterogeneous data sources (CSV, XML, Access, Excel, PostgreSQL, SQL Server), saving ~1 hr/day of manual processing for the analytics team.
-          - Automated a 30-min manual download to ~10s (~180x) with Selenium scrapers feeding BI dashboards, deployed as PyInstaller .exe binaries on a scheduled VM with file-based logging for troubleshooting.
-          - Co-built a PowerApps + PowerFX app (owning architecture and core features) that replaced a fragmented Excel + email workflow, cutting handoff delays in tube-defect lifecycle management.
+          - Save ~1 hr/day of manual processing by engineering automated ETL pipelines that ingest data from 5+ heterogeneous sources (CSV, XML, Access, Excel, PostgreSQL, SQL Server) with Python, freeing analysts to focus on insights instead of data prep.
+          - Reduced a recurring 30-minute manual download task to ~10 seconds (~180x faster) by building Selenium-based web scrapers that auto-refresh CSV datasets feeding business dashboards, packaged as standalone .exe binaries via PyInstaller and deployed on a scheduled VM with file-based execution logging (run timestamps, downloaded files, durations) for production troubleshooting.
+          - Co-built a PowerApps + PowerFX application that centralized tube-defect lifecycle management into a single system, owning the architecture and core features, replacing a fragmented Excel + email workflow and cutting handoff delays for the operations team.
 
       - company: NeoDigital
         position: Python Backend Developer Intern
@@ -50,9 +50,9 @@ cv:
         location: Veracruz, Mexico
         summary:
         highlights:
-          - Shipped a production FastAPI + MongoDB RESTful API for SAT fiscal-catalog management, applying layered architecture (routers/services/repositories) and async I/O via Motor.
-          - Slashed catalog onboarding from hours to seconds via Excel-to-JSON ingestion endpoints with Pydantic schema validation, preventing malformed records in production.
-          - Authored a reusable bulk-conversion script that became the team's default onboarding pipeline for new SAT catalogs.
+          - Shipped a production-grade FastAPI + MongoDB RESTful API for SAT fiscal-catalog management, applying layered architecture (routers / services / repositories) and async I/O via Motor to support core tax-compliance workflows.
+          - Slashed catalog onboarding from hours to seconds by engineering Excel-to-JSON ingestion endpoints with Pydantic schema validation, preventing malformed records from reaching production and ensuring end-to-end data integrity.
+          - Standardized catalog ingestion across the team by authoring a reusable bulk-conversion script that became the default onboarding pipeline for new SAT catalogs.
 
     projects:
       - name: 'Lnap — Educational Programming Tools'
@@ -76,16 +76,20 @@ cv:
           - Instrumented structured session logging of inputs, outputs, and latency metrics to enable post-hoc accuracy evaluation and model performance analysis.
 
     skills:
-      - label: Languages
-        details: Python, Java, JavaScript, TypeScript, SQL
-      - label: 'Backend & APIs'
-        details: FastAPI, Flask, Django, Pydantic, async/await, RESTful API design
+      - label: 'Backend (Python)'
+        details: FastAPI, Flask, Django, Pydantic, Motor, async/await, RESTful APIs
       - label: Databases
         details: MongoDB, PostgreSQL, Microsoft SQL Server, MySQL
-      - label: 'Infrastructure & Tooling'
-        details: Docker, Git, CI/CD, Microsoft Azure, Linux, Selenium
-      - label: 'Data & Analytics'
-        details: ETL pipelines, Power BI, DAX, Matplotlib, Plotly
+      - label: DevOps & Cloud
+        details: Docker, Git, CI/CD pipelines, Microsoft Azure (App Services), Linux
+      - label: 'Architecture & Design'
+        details: Layered architecture, REST API design, OOP, schema validation
+      - label: Data & Visualization
+        details: Power BI, DAX, Power Query, PowerApps, Matplotlib, Plotly, Selenium, ETL
+      - label: 'Additional Languages & Tools'
+        details: Java (Spring), JavaScript, TypeScript, SQL, React
+      - label: Methodologies
+        details: Agile, Scrum, code review, version control
 
     certifications:
       - label: Django Application Development with SQL and Databases — IBM (Oct 2025)
@@ -96,32 +100,29 @@ cv:
         details: 150-hour intensive program covering ML, neural networks, and leadership.
       - label: Foundations of Agile Project Management — Google (May 2026)
         details: Agile principles, Scrum framework, and sprint planning fundamentals.
+      - label: 'IBM Python Developer Track (6 courses, 2025)'
+        details: Python for Data Science, Intro to AI, Hands-on Linux, Git & GitHub, Software Engineering, Python Essentials.
 
 design:
   theme: harvard
   page:
-    top_margin: 1.3cm
-    bottom_margin: 1.3cm
-    left_margin: 1.5cm
-    right_margin: 1.5cm
+    top_margin: 1.5cm
+    bottom_margin: 1.5cm
+    left_margin: 1.8cm
+    right_margin: 1.8cm
     show_footer: false
-  typography:
-    font_size:
-      body: 9.5pt
   header:
     connections:
       show_icons: true
-    space_below_name: 0.25cm
-    space_below_headline: 0.25cm
-    space_below_connections: 0.35cm
+    space_below_name: 0.3cm
+    space_below_headline: 0.3cm
+    space_below_connections: 0.4cm
   section_titles:
-    space_above: 0.25cm
-    space_below: 0.15cm
+    space_above: 0.3cm
+    space_below: 0.2cm
   sections:
-    space_between_regular_entries: 0.5em
-    space_between_text_based_entries: 0.15em
-  entries:
-    date_and_location_width: 4.5cm
+    space_between_regular_entries: 0.6em
+    space_between_text_based_entries: 0.2em
 
 locale:
   language: english
