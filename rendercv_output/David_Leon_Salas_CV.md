@@ -7,7 +7,7 @@
 
 
 # About me
-Junior Python Backend Developer with hands-on experience shipping production-grade RESTful APIs in FastAPI and Flask across 3 internships. Strong in layered architecture, async I/O, schema validation, Docker, and Azure deployments. B.S. in Computer Systems Engineering (May 2026), 90/100 GPA. English B2, native Spanish.
+Python backend engineer. 3 internships building production APIs in FastAPI, Flask, and Django, with Docker and Azure deployments. B.S. Computer Systems Engineering, May 2026 (90/100 GPA). EN B2 / ES native.
 
 # Education
 ## **TecNM - Instituto Tecnológico de Veracruz**, B.S. in Computer Systems Engineering -- Veracruz, Mexico
