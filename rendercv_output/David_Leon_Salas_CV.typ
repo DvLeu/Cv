@@ -88,11 +88,11 @@
 
 = David León Salas
 
-  #headline([Junior Python Backend Developer])
+  #headline([Backend Developer])
 
 #connections(
   [#connection-with-icon("location-dot")[Veracruz, Ver]],
-  [#link("mailto:davidleonsalasdev@email.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[davidleonsalasdev\@email.com]]],
+  [#link("mailto:davidleonsalasdev@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[davidleonsalasdev\@gmail.com]]],
   [#link("tel:+52-229-177-9456", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[229 177 9456]]],
   [#link("https://github.com/DvLeu", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[DvLeu]]],
   [#link("https://www.dvleu.dev/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("globe")[dvleu.dev]]],
@@ -101,13 +101,13 @@
 
 == About me
 
-Python backend engineer. 3 internships building production APIs in FastAPI, Flask, and Django, with Docker and Azure deployments. B.S. Computer Systems Engineering, May 2026 (90\/100 GPA). EN B2 \/ ES native.
+Python backend developer with hands-on experience in APIs, automation, ETL pipelines, and data integration. Curious, proactive, and always learning, I enjoy understanding how systems work and finding practical ways to make processes faster and cleaner. EN B2 \/ ES native.
 
 == Education
 
 #education-entry(
   [
-    #strong[TecNM - Instituto Tecnológico de Veracruz], B.S. in Computer Systems Engineering -- Veracruz, Mexico
+    #strong[TecNM Instituto Tecnológico de Veracruz], B.S. in Computer Systems Engineering -- Veracruz, Mexico
 
   ],
   [
@@ -118,7 +118,9 @@ Python backend engineer. 3 internships building production APIs in FastAPI, Flas
     
   ],
   main-column-second-row: [
-    - GPA: 90\/100. Member of the Competitive Programming Club (CPC).
+    - GPA: 3.6\/4.0; active member of the Competitive Programming Club (CPC).
+
+    - Selected research intern for LNAP, an educational initiative successfully used by 90+ active students.
 
   ],
 )
@@ -203,13 +205,13 @@ Python backend engineer. 3 internships building production APIs in FastAPI, Flas
 
 #strong[Languages:] Python, Java, JavaScript, TypeScript, SQL
 
-#strong[Backend & APIs:] FastAPI, Flask, Django, Pydantic, async\/await, RESTful API design
+#strong[Backend & APIs:] FastAPI, Flask, Django, RESTful APIs, async systems, Pydantic
 
 #strong[Databases:] MongoDB, PostgreSQL, Microsoft SQL Server, MySQL
 
-#strong[Infrastructure & Tooling:] Docker, Git, CI\/CD, Microsoft Azure, Linux, Selenium
+#strong[Infrastructure & Tooling:] Docker, Git, CI\/CD, Microsoft Azure, Amazon Web Services, Linux, Selenium, Bash
 
-#strong[Data & Analytics:] ETL pipelines, Power BI, DAX, Matplotlib, Plotly
+#strong[Data & Analytics:] ETL pipelines, Power BI, data automation, Matplotlib, Plotly
 
 == Certifications
 

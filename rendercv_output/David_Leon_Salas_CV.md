@@ -1,23 +1,25 @@
 # David León Salas's CV
 
 - Phone: +52 229 177 9456
-- Email: [davidleonsalasdev@email.com](mailto:davidleonsalasdev@email.com)
+- Email: [davidleonsalasdev@gmail.com](mailto:davidleonsalasdev@gmail.com)
 - Location: Veracruz, Ver
 - GitHub: [DvLeu](https://github.com/DvLeu)
 
 
 # About me
-Python backend engineer. 3 internships building production APIs in FastAPI, Flask, and Django, with Docker and Azure deployments. B.S. Computer Systems Engineering, May 2026 (90/100 GPA). EN B2 / ES native.
+Python backend developer with hands-on experience in APIs, automation, ETL pipelines, and data integration. Curious, proactive, and always learning, I enjoy understanding how systems work and finding practical ways to make processes faster and cleaner. EN B2 / ES native.
 
 # Education
-## **TecNM - Instituto Tecnológico de Veracruz**, B.S. in Computer Systems Engineering -- Veracruz, Mexico
+## **TecNM Instituto Tecnológico de Veracruz**, B.S. in Computer Systems Engineering -- Veracruz, Mexico
 
 
 
 
 Aug 2021 – May 2026
 
-- GPA: 90/100. Member of the Competitive Programming Club (CPC).
+- GPA: 3.6/4.0; active member of the Competitive Programming Club (CPC).
+
+- Selected research intern for LNAP, an educational initiative successfully used by 90+ active students.
 
 
 
@@ -70,13 +72,13 @@ Mar 2024 – May 2024
 # Skills
 **Languages:** Python, Java, JavaScript, TypeScript, SQL
 
-**Backend & APIs:** FastAPI, Flask, Django, Pydantic, async/await, RESTful API design
+**Backend & APIs:** FastAPI, Flask, Django, RESTful APIs, async systems, Pydantic
 
 **Databases:** MongoDB, PostgreSQL, Microsoft SQL Server, MySQL
 
-**Infrastructure & Tooling:** Docker, Git, CI/CD, Microsoft Azure, Linux, Selenium
+**Infrastructure & Tooling:** Docker, Git, CI/CD, Microsoft Azure, Amazon Web Services, Linux, Selenium, Bash
 
-**Data & Analytics:** ETL pipelines, Power BI, DAX, Matplotlib, Plotly
+**Data & Analytics:** ETL pipelines, Power BI, data automation, Matplotlib, Plotly
 
 # Certifications
 **Django Application Development with SQL and Databases — IBM (Oct 2025):** Django ORM, models, views, templates, and SQL database integration.
