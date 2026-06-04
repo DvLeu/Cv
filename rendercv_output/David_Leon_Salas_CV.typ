@@ -129,7 +129,7 @@ Python backend developer with hands-on experience in APIs, automation, ETL pipel
 
 #regular-entry(
   [
-    #strong[TenarisTamsa], Data Analyst Intern -- Veracruz, Mexico
+    #strong[TenarisTamsa], Data Engineer Intern -- Veracruz, Mexico
 
   ],
   [

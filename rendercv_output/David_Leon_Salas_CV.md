@@ -24,7 +24,7 @@ Aug 2021 – May 2026
 
 
 # Experience
-## **TenarisTamsa**, Data Analyst Intern -- Veracruz, Mexico
+## **TenarisTamsa**, Data Engineer Intern -- Veracruz, Mexico
 
 Feb 2026 – present
 
