@@ -6,8 +6,8 @@
   name: "David León Salas",
   title: "David León Salas - CV",
   footer: context { [#emph[David León Salas -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in June 2026] ],
-  locale-catalog-language: "en",
+  top-note: [ #emph[Última actualización Jun 2026] ],
+  locale-catalog-language: "es",
   text-direction: ltr,
   page-size: "us-letter",
   page-top-margin: 1.3cm,
@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 6,
-    day: 4,
+    day: 8,
   ),
 )
 
@@ -99,73 +99,73 @@
 )
 
 
-== Summary
+== Sobre mí
 
-Software engineer with a production track record shipping #strong[Python] APIs, #strong[ETL] pipelines, and automation systems that eliminate manual bottlenecks. English B2 \/ Spanish native.
+Ingeniero de software con experiencia en APIs Python, pipelines ETL y automatizaciones que reducen trabajo manual en los equipos. Inglés B2 \/ Español nativo.
 
-== Education
+== Educación
 
 #education-entry(
   [
-    #strong[TecNM Instituto Tecnológico de Veracruz], B.S. in Computer Systems Engineering -- Veracruz, Mexico
+    #strong[TecNM Instituto Tecnológico de Veracruz], Ingeniería en Sistemas Computacionales -- Veracruz, México
 
   ],
   [
-    Aug 2021 – May 2026
+    Ago 2021 – May 2026
 
   ],
   degree-column: [
     
   ],
   main-column-second-row: [
-    - GPA: 3.6\/4.0; active member of the Competitive Programming Club (CPC), practicing algorithms, data structures, and problem-solving under contest constraints.
+    - Promedio: 90\/100; miembro activo del Club de Programación Competitiva (CPC), con práctica en algoritmos, estructuras de datos y resolución de problemas en entornos de competencia.
 
-    - Competitively selected as institutional research intern to develop LNAP, an educational platform serving 90+ active students.
+    - Participé en un grupo de investigación institucional para desarrollar LNAP, plataforma educativa adoptada por más de 90 estudiantes activos.
 
   ],
 )
 
-== Experience
+== Experiencia
 
 #regular-entry(
   [
-    #strong[Alvasu], Freelance Full-Stack Developer -- Veracruz, Mexico
+    #strong[Alvasu], Freelance Full-Stack Developer -- Veracruz, México
 
   ],
   [
-    May 2026 – present
+    May 2026 – presente
 
   ],
   main-column-second-row: [
-    - Designed and delivered an offline-first desktop application (#strong[React], #strong[Flask], #strong[SQLite], #strong[Electron]) for internal operations, enabling local data ownership with zero cloud dependency.
+    - Desarrollé una aplicación de escritorio que funciona sin internet (React, Flask, SQLite, Electron) para las operaciones internas del cliente, guardando todos los datos localmente sin depender de la nube.
 
-    - Built a date-effective cost calculation engine to track ingredient price changes, preserve historical recipe costs, and support profit analysis across production periods.
+    - Construí un motor de costeo que registra cambios de precios por fecha, preserva el historial de costos de recetas y permite comparar rentabilidad entre períodos de producción.
 
-    - Consolidated ingredient pricing, production logs, recipe management, sales records, and profit dashboards into a single workflow, reducing manual handoffs for the client.
+    - Unifiqué en una sola herramienta la gestión de ingredientes, producción, recetas, ventas y rentabilidad, eliminando los traspasos manuales entre archivos que el cliente hacía antes.
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[TenarisTamsa], Data Engineer Intern -- Veracruz, Mexico
+    #strong[TenarisTamsa], Data Engineer Intern -- Veracruz, México
 
   ],
   [
-    Feb 2026 – June 2026
+    Feb 2026 – Jun 2026
 
   ],
   main-column-second-row: [
-    - Built #strong[Python] #strong[ETL] pipelines unifying 5+ heterogeneous data sources (CSV, XML, Access, #strong[Excel], #strong[SQL]), reclaiming \~1 hr\/day of analyst time previously lost to manual aggregation.
+    - Desarrollé pipelines ETL en Python que integran más de 5 fuentes distintas (CSV, XML, Access, Excel, SQL), ahorrando al equipo cerca de 1 hora diaria de agregación manual.
 
-    - Reduced a 30-min daily data collection task to under 10 sec (180× speedup) by deploying scheduled #strong[Python] scrapers as standalone executables with structured logging for production-grade reliability.
+    - Reduje una tarea de recopilación diaria de 30 minutos a menos de 10 segundos (180× más rápido) con scrapers Python empaquetados como ejecutables independientes, con logs estructurados para monitoreo en producción.
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[NeoDigital], #strong[Python] Backend Developer Intern -- Veracruz, Mexico
+    #strong[NeoDigital], Python Backend Developer Intern -- Veracruz, México
 
   ],
   [
@@ -173,33 +173,33 @@ Software engineer with a production track record shipping #strong[Python] APIs, 
 
   ],
   main-column-second-row: [
-    - Architected and shipped a production #strong[FastAPI] + #strong[MongoDB] #strong[REST API] serving SAT fiscal catalogs using #strong[async] #strong[Python] and layered architecture, delivering a scalable and maintainable service running in production.
+    - Diseñé y desplegué una API REST con FastAPI y MongoDB para servir catálogos fiscales del SAT, usando Python asíncrono y arquitectura en capas para mantenerla escalable y fácil de mantener en producción.
 
-    - Slashed catalog onboarding from hours to seconds by engineering #strong[Excel] ingestion endpoints with #strong[Pydantic] schema validation, blocking malformed records at the API boundary before reaching production.
+    - Reduje el proceso de carga de catálogos de horas a segundos con endpoints de ingesta de Excel y validación de esquemas Pydantic, rechazando datos malformados antes de que llegaran a la base de datos.
 
   ],
 )
 
-== Projects
+== Proyectos
 
 #regular-entry(
   [
-    #strong[Lnap — Educational Programming Tools] -- #strong[Veracruz, Mexico]
+    #strong[Lnap — Educational Programming Tools] -- #strong[Veracruz, México]
 
   ],
   [
-    Sept 2025 – Nov 2025
+    Sep 2025 – Nov 2025
 
   ],
   main-column-second-row: [
-    - Delivered two tools under an institutional research contract — an interactive programming visualization platform and a pseudocode-to-#strong[Python] translator — adopted in live lectures and validated by 80+ first-semester students.
+    - Desarrollé dos herramientas como parte de una beca institucional — una plataforma de visualización interactiva de código y un traductor de pseudocódigo a Python — usadas en clases reales y probadas por más de 80 estudiantes de primer semestre.
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[HealthMed Chat — Medical Diagnosis API] -- #strong[Veracruz, Mexico]
+    #strong[HealthMed Chat — Medical Diagnosis API] -- #strong[Veracruz, México]
 
   ],
   [
@@ -207,33 +207,33 @@ Software engineer with a production track record shipping #strong[Python] APIs, 
 
   ],
   main-column-second-row: [
-    - Engineered a medical diagnosis #strong[REST API] combining rule-based filtering and #strong[KNN] scoring to return a ranked Top-5 differential diagnosis from patient inputs (age, gender, BMI, symptoms), with full session logging for accuracy analysis.
+    - Diseñé una API REST que conecta con un modelo de ML de diagnóstico médico, combinando reglas clínicas y KNN para devolver los 5 diagnósticos más probables según los datos del paciente (edad, género, IMC y síntomas), registrando cada sesión para analizar la precisión del modelo.
 
   ],
 )
 
-== Skills
+== Habilidades
 
-#strong[Languages:] #strong[Python], #strong[Java], #strong[JavaScript], #strong[TypeScript], #strong[SQL]
+#strong[Lenguajes:] Python, Java, JavaScript, TypeScript, SQL
 
-#strong[Backend & APIs:] #strong[FastAPI], #strong[Flask], #strong[Django], #strong[RESTful APIs], #strong[async] systems, #strong[Pydantic]
+#strong[Backend y APIs:] FastAPI, Flask, Django, RESTful APIs, sistemas asíncronos, Pydantic
 
-#strong[Databases:] #strong[MongoDB], #strong[PostgreSQL], #strong[Microsoft SQL Server], #strong[MySQL]
+#strong[Bases de Datos:] MongoDB, PostgreSQL, Microsoft SQL Server, MySQL
 
-#strong[Infrastructure & Tooling:] #strong[Docker], #strong[Git], #strong[CI\/CD], Microsoft #strong[Azure], Amazon Web Services, #strong[Linux], #strong[Selenium], #strong[Bash]
+#strong[Infraestructura y Herramientas:] Docker, Git, CI\/CD, Microsoft Azure, Amazon Web Services, Linux, Selenium, Bash
 
-#strong[Data & Analytics:] #strong[ETL] pipelines, #strong[Power BI], data automation, #strong[Matplotlib], #strong[Plotly]
+#strong[Datos y Análisis:] Pipelines ETL, Power BI, automatización de datos, Matplotlib, Plotly
 
-== Certifications
+== Certificaciones
 
 #strong[Google Agile Essentials — Google (May 2026):]
 
-#strong[#emph[#sym.ast.basic#h(0pt, weak: true) Django]#sym.ast.basic Application Development with ]SQL#strong[ and Databases — IBM (Oct 2025):]
+#strong[Django Application Development with SQL and Databases — IBM (Oct 2025):]
 
-#strong[Developing AI Applications with ]Python#strong[ and ]Flask#strong[ — IBM (May 2025):]
+#strong[Developing AI Applications with Python and Flask — IBM (May 2025):]
 
-#strong[#emph[#sym.ast.basic#h(0pt, weak: true) Python]#sym.ast.basic for Data Science, AI & Development — IBM (May 2025):]
+#strong[Python for Data Science, AI & Development — IBM (May 2025):]
 
-#strong[#emph[#sym.ast.basic#h(0pt, weak: true) Python]#sym.ast.basic Essentials 1 & 2 — Cisco (May 2025):]
+#strong[Python Essentials 1 & 2 — Cisco (May 2025):]
 
 #strong[Samsung Innovation Campus — AI & Leadership, Samsung & UDEM (Apr 2025):]

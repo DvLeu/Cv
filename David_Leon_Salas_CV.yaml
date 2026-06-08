@@ -138,4 +138,40 @@ settings:
     dont_generate_typst: false
     dont_generate_pdf: false
     dont_generate_png: false
-  bold_keywords: []
+  bold_keywords:
+    - Python
+    - Java
+    - JavaScript
+    - TypeScript
+    - SQL
+    - FastAPI
+    - Flask
+    - Django
+    - React
+    - Electron
+    - MongoDB
+    - PostgreSQL
+    - SQLite
+    - MySQL
+    - Microsoft SQL Server
+    - Docker
+    - Git
+    - GitHub
+    - Selenium
+    - Power BI
+    - PowerApps
+    - PowerFX
+    - ETL
+    - REST API
+    - RESTful APIs
+    - async
+    - Pydantic
+    - CI/CD
+    - Linux
+    - Bash
+    - Azure
+    - AWS
+    - Matplotlib
+    - Plotly
+    - Excel
+    - KNN
