@@ -10,6 +10,15 @@
 Software engineer with a production track record shipping **Python** APIs, **ETL** pipelines, and automation systems that eliminate manual bottlenecks. English B2 / Spanish native.
 
 # Education
+## **Universidad Cristóbal Colón**, M.S. in Data Science, Computer Science -- Veracruz, Mexico
+
+
+
+
+Sept 2026 – present
+
+
+
 ## **TecNM Instituto Tecnológico de Veracruz**, B.S. in Computer Systems Engineering -- Veracruz, Mexico
 
 
@@ -24,9 +33,21 @@ Aug 2021 – May 2026
 
 
 # Experience
+## **Scaleflow technologies**, Software Engineer -- Monterrey, Mexico
+
+Aug 2026 – present
+
+- Resolve backend development tickets across **Python**/**FastAPI** and **Java** projects.
+
+- Contribute to microservices development, debugging, and integration across backend services.
+
+- Work with **AWS**, **Terraform**, and **Docker** to support cloud infrastructure and deployments.
+
+
+
 ## **Alvasu**, Freelance Full-Stack Developer -- Veracruz, Mexico
 
-May 2026 – present
+May 2026 – July 2026
 
 - Designed and delivered an offline-first desktop application (**React**, **Flask**, **SQLite**, **Electron**) for internal operations, enabling local data ownership with zero cloud dependency.
 
@@ -76,23 +97,29 @@ Mar 2024 – May 2024
 # Skills
 **Languages:** **Python**, **Java**, **JavaScript**, **TypeScript**, **SQL**
 
-**Backend & APIs:** **FastAPI**, **Flask**, **Django**, **RESTful APIs**, **async** systems, **Pydantic**
+**Backend & APIs:** **FastAPI**, **Flask**, **Django**, **Spring Boot**, Spring Cloud, Hibernate, Microservices, **RESTful APIs**, **async** systems, **Pydantic**
 
 **Databases:** **MongoDB**, **PostgreSQL**, **Microsoft SQL Server**, **MySQL**
 
-**Infrastructure & Tooling:** **Docker**, **Git**, **CI/CD**, Microsoft **Azure**, Amazon Web Services, **Linux**, **Selenium**, **Bash**
+**Infrastructure & Tooling:** **Docker**, **Git**, **CI/CD**, Microsoft **Azure**, Amazon Web Services, **Terraform**, **Linux** CLI
 
 **Data & Analytics:** **ETL** pipelines, **Power BI**, data automation, **Matplotlib**, **Plotly**
 
+**Practices:** Agile/Scrum, Sprint Planning, Software Architecture, Business Continuity & High Availability
+
 # Certifications
-**Google Agile Essentials — Google (May 2026):**
+Building Scalable **Java** Microservices with **Spring Boot** and Spring Cloud — Google Cloud (Sep 2026)
 
-****Django** Application Development with **SQL** and Databases — IBM (Oct 2025):**
+**MongoDB** Overview (Core Concepts & Architecture) and Reliability & Availability — **MongoDB** (Sep 2026)
 
-**Developing AI Applications with **Python** and **Flask** — IBM (May 2025):**
+Google Agile Essentials — Google (May 2026)
 
-****Python** for Data Science, AI & Development — IBM (May 2025):**
+**Django** Application Development with **SQL** and Databases — IBM (Oct 2025)
 
-****Python** Essentials 1 & 2 — Cisco (May 2025):**
+Developing AI Applications with **Python** and **Flask** — IBM (May 2025)
 
-**Samsung Innovation Campus — AI & Leadership, Samsung & UDEM (Apr 2025):**
+**Python** for Data Science, AI & Development — IBM (May 2025)
+
+**Python** Essentials 1 & 2 — Cisco (May 2025)
+
+Samsung Innovation Campus — AI & Leadership, Samsung & UDEM (Apr 2025)

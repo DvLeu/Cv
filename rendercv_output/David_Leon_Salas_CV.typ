@@ -6,7 +6,7 @@
   name: "David León Salas",
   title: "David León Salas - CV",
   footer: context { [#emph[David León Salas -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in June 2026] ],
+  top-note: [ #emph[Last updated in Sept 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 6,
-    day: 4,
+    month: 9,
+    day: 30,
   ),
 )
 
@@ -107,6 +107,22 @@ Software engineer with a production track record shipping #strong[Python] APIs, 
 
 #education-entry(
   [
+    #strong[Universidad Cristóbal Colón], M.S. in Data Science, Computer Science -- Veracruz, Mexico
+
+  ],
+  [
+    Sept 2026 – present
+
+  ],
+  degree-column: [
+    
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#education-entry(
+  [
     #strong[TecNM Instituto Tecnológico de Veracruz], B.S. in Computer Systems Engineering -- Veracruz, Mexico
 
   ],
@@ -129,11 +145,30 @@ Software engineer with a production track record shipping #strong[Python] APIs, 
 
 #regular-entry(
   [
+    #strong[Scaleflow technologies], Software Engineer -- Monterrey, Mexico
+
+  ],
+  [
+    Aug 2026 – present
+
+  ],
+  main-column-second-row: [
+    - Resolve backend development tickets across #strong[Python]\/#strong[FastAPI] and #strong[Java] projects.
+
+    - Contribute to microservices development, debugging, and integration across backend services.
+
+    - Work with #strong[AWS], #strong[Terraform], and #strong[Docker] to support cloud infrastructure and deployments.
+
+  ],
+)
+
+#regular-entry(
+  [
     #strong[Alvasu], Freelance Full-Stack Developer -- Veracruz, Mexico
 
   ],
   [
-    May 2026 – present
+    May 2026 – July 2026
 
   ],
   main-column-second-row: [
@@ -216,24 +251,30 @@ Software engineer with a production track record shipping #strong[Python] APIs, 
 
 #strong[Languages:] #strong[Python], #strong[Java], #strong[JavaScript], #strong[TypeScript], #strong[SQL]
 
-#strong[Backend & APIs:] #strong[FastAPI], #strong[Flask], #strong[Django], #strong[RESTful APIs], #strong[async] systems, #strong[Pydantic]
+#strong[Backend & APIs:] #strong[FastAPI], #strong[Flask], #strong[Django], #strong[Spring Boot], Spring Cloud, Hibernate, Microservices, #strong[RESTful APIs], #strong[async] systems, #strong[Pydantic]
 
 #strong[Databases:] #strong[MongoDB], #strong[PostgreSQL], #strong[Microsoft SQL Server], #strong[MySQL]
 
-#strong[Infrastructure & Tooling:] #strong[Docker], #strong[Git], #strong[CI\/CD], Microsoft #strong[Azure], Amazon Web Services, #strong[Linux], #strong[Selenium], #strong[Bash]
+#strong[Infrastructure & Tooling:] #strong[Docker], #strong[Git], #strong[CI\/CD], Microsoft #strong[Azure], Amazon Web Services, #strong[Terraform], #strong[Linux] CLI
 
 #strong[Data & Analytics:] #strong[ETL] pipelines, #strong[Power BI], data automation, #strong[Matplotlib], #strong[Plotly]
 
+#strong[Practices:] Agile\/Scrum, Sprint Planning, Software Architecture, Business Continuity & High Availability
+
 == Certifications
 
-#strong[Google Agile Essentials — Google (May 2026):]
+Building Scalable #strong[Java] Microservices with #strong[Spring Boot] and Spring Cloud — Google Cloud (Sep 2026)
 
-#strong[#emph[#sym.ast.basic#h(0pt, weak: true) Django]#sym.ast.basic Application Development with ]SQL#strong[ and Databases — IBM (Oct 2025):]
+#strong[MongoDB] Overview (Core Concepts & Architecture) and Reliability & Availability — #strong[MongoDB] (Sep 2026)
 
-#strong[Developing AI Applications with ]Python#strong[ and ]Flask#strong[ — IBM (May 2025):]
+Google Agile Essentials — Google (May 2026)
 
-#strong[#emph[#sym.ast.basic#h(0pt, weak: true) Python]#sym.ast.basic for Data Science, AI & Development — IBM (May 2025):]
+#strong[Django] Application Development with #strong[SQL] and Databases — IBM (Oct 2025)
 
-#strong[#emph[#sym.ast.basic#h(0pt, weak: true) Python]#sym.ast.basic Essentials 1 & 2 — Cisco (May 2025):]
+Developing AI Applications with #strong[Python] and #strong[Flask] — IBM (May 2025)
 
-#strong[Samsung Innovation Campus — AI & Leadership, Samsung & UDEM (Apr 2025):]
+#strong[Python] for Data Science, AI & Development — IBM (May 2025)
+
+#strong[Python] Essentials 1 & 2 — Cisco (May 2025)
+
+Samsung Innovation Campus — AI & Leadership, Samsung & UDEM (Apr 2025)

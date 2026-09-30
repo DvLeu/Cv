@@ -16,6 +16,11 @@ cv:
     Summary:
     - Software engineer with a production track record shipping Python APIs, ETL pipelines, and automation systems that eliminate manual bottlenecks. English B2 / Spanish native.
     education:
+      - institution: Universidad Cristóbal Colón
+        area: M.S. in Data Science, Computer Science
+        start_date: 2026-09
+        end_date: present
+        location: Veracruz, Mexico
       - institution: TecNM Instituto Tecnológico de Veracruz
         area: B.S. in Computer Systems Engineering
         start_date: 2021-08
@@ -26,10 +31,20 @@ cv:
           - 'Competitively selected as institutional research intern to develop LNAP, an educational platform serving 90+ active students.'
 
     experience:
+      - company: Scaleflow technologies
+        position: Software Engineer
+        start_date: 2026-08
+        end_date: present
+        location: Monterrey, Mexico
+        highlights:
+        - Resolve backend development tickets across Python/FastAPI and Java projects.
+        - Contribute to microservices development, debugging, and integration across backend services.
+        - Work with AWS, Terraform, and Docker to support cloud infrastructure and deployments.
+      
       - company: Alvasu
         position: Freelance Full-Stack Developer
         start_date: 2026-05
-        end_date: present
+        end_date: 2026-07
         location: Veracruz, Mexico
         highlights:
           - Designed and delivered an offline-first desktop application (React, Flask, SQLite, Electron) for internal operations, enabling local data ownership with zero cloud dependency.
@@ -72,27 +87,25 @@ cv:
       - label: Languages
         details: Python, Java, JavaScript, TypeScript, SQL
       - label: 'Backend & APIs'
-        details: FastAPI, Flask, Django, RESTful APIs, async systems, Pydantic
+        details: FastAPI, Flask, Django, Spring Boot, Spring Cloud, Hibernate, Microservices, RESTful APIs, async systems, Pydantic
       - label: Databases
         details: MongoDB, PostgreSQL, Microsoft SQL Server, MySQL
       - label: 'Infrastructure & Tooling'
-        details: Docker, Git, CI/CD, Microsoft Azure, Amazon Web Services, Linux, Selenium, Bash
+        details: Docker, Git, CI/CD, Microsoft Azure, Amazon Web Services, Terraform, Linux CLI
       - label: 'Data & Analytics'
         details: ETL pipelines, Power BI, data automation, Matplotlib, Plotly
+      - label: Practices
+        details: Agile/Scrum, Sprint Planning, Software Architecture, Business Continuity & High Availability
 
     certifications:
-      - label: Google Agile Essentials — Google (May 2026)
-        details: ''
-      - label: Django Application Development with SQL and Databases — IBM (Oct 2025)
-        details: ''
-      - label: Developing AI Applications with Python and Flask — IBM (May 2025)
-        details: ''
-      - label: Python for Data Science, AI & Development — IBM (May 2025)
-        details: ''
-      - label: Python Essentials 1 & 2 — Cisco (May 2025)
-        details: ''
-      - label: Samsung Innovation Campus — AI & Leadership, Samsung & UDEM (Apr 2025)
-        details: ''
+      - 'Building Scalable Java Microservices with Spring Boot and Spring Cloud — Google Cloud (Sep 2026)'
+      - 'MongoDB Overview (Core Concepts & Architecture) and Reliability & Availability — MongoDB (Sep 2026)'
+      - 'Google Agile Essentials — Google (May 2026)'
+      - 'Django Application Development with SQL and Databases — IBM (Oct 2025)'
+      - 'Developing AI Applications with Python and Flask — IBM (May 2025)'
+      - 'Python for Data Science, AI & Development — IBM (May 2025)'
+      - 'Python Essentials 1 & 2 — Cisco (May 2025)'
+      - 'Samsung Innovation Campus — AI & Leadership, Samsung & UDEM (Apr 2025)'
 
 design:
   theme: harvard
@@ -124,7 +137,7 @@ locale:
   language: english
 
 settings:
-  current_date: '2026-06-04'
+  current_date: '2026-09-30'
   render_command:
     design:
     locale:
@@ -175,3 +188,5 @@ settings:
     - Plotly
     - Excel
     - KNN
+    - Spring Boot
+    - Terraform
