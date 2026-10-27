@@ -14,21 +14,24 @@ cv:
       placeholder: dvleu.dev
   sections:
     Summary:
-    - Software engineer with a production track record shipping Python & Java Server-side applications on Amazon Web Services and Google Cloud Platform, ETL pipelines, and automation systems that eliminate manual bottlenecks. English B2 / Spanish native.
+     - Software Engineer specializing in Python and Java backend development, with hands-on experience building production APIs, multi-tenant systems, and cloud-native applications on AWS and GCP. Skilled in REST API design, authentication, database architecture, and data automation, with demonstrated results improving operational efficiency by up to 180×. English B2.
     education:
       - institution: Universidad Cristóbal Colón
-        area: M.S. in Data Science, Computer Science
+        degree: M.S.
+        area: Data Science, Computer Science
         start_date: 2026-09
         end_date: present
         location: Veracruz, Mexico
       - institution: TecNM Instituto Tecnológico de Veracruz
-        area: B.S. in Computer Systems Engineering
+        degree: B.S.
+        area: Computer Systems Engineering
         start_date: 2021-08
         end_date: 2026-05
         location: Veracruz, Mexico
         highlights:
-          - 'GPA: 3.6/4.0; active member of the Competitive Programming Club (CPC), practicing algorithms, data structures, and problem-solving under contest constraints.'
-          - 'Competitively selected as institutional research intern to develop LNAP, an educational platform serving 90+ active students.'
+          - 'GPA: 3.6/4.0; member of the Competitive Programming Club (CPC).'
+          # - 'GPA: 3.6/4.0; member of the Competitive Programming Club (CPC), practicing algorithms and data structures.'
+          # - 'Selected as research intern to develop LNAP, an educational platform used by 80+ students.'
 
     experience:
       - company: ScaleFlow Technologies
@@ -46,9 +49,9 @@ cv:
         end_date: 2026-07
         location: Veracruz, Mexico
         highlights:
-          - Designed and delivered an offline-first desktop application (React, Flask, SQLite, Electron) for internal operations, enabling local data ownership with zero cloud dependency.
+          - Designed and delivered an offline-first desktop application (React, Flask, SQLite, Electron) for internal operations that works without internet.
           - Built a date-effective cost calculation engine to track ingredient price changes, preserve historical recipe costs, and support profit analysis across production periods.
-          - Consolidated ingredient pricing, production logs, recipe management, sales records, and profit dashboards into a single workflow, reducing manual handoffs for the client.
+          # - Consolidated ingredient pricing, production logs, recipe management, sales records, and profit dashboards into a single workflow, reducing manual handoffs for the client.
 
       - company: TenarisTamsa
         position: Data Engineer Intern
@@ -57,7 +60,7 @@ cv:
         location: Veracruz, Mexico
         highlights:
           - Built Python ETL pipelines unifying 5+ heterogeneous data sources (CSV, XML, Access, Excel, SQL), reclaiming ~1 hr/day of analyst time previously lost to manual aggregation.
-          - Fixed a performance bottleneck, cutting a 30-min daily data collection task to under 10 sec (180× speedup) by deploying scheduled Python scrapers as standalone executables with structured logging for production-grade reliability.
+          - Fixed a performance bottleneck, cutting a 30-min daily data collection task to under 10 sec (180× speedup) by deploying scheduled Python scrapers as standalone executables with structured logging.
 
       - company: NeoDigital
         position: Python Backend Developer Intern
@@ -65,7 +68,7 @@ cv:
         end_date: 2025-10
         location: Veracruz, Mexico
         highlights:
-          - Architected and shipped a production FastAPI + MongoDB REST API serving SAT fiscal catalogs using async Python and layered architecture, delivering a scalable and maintainable service running in production.
+          - Architected and shipped a production FastAPI + MongoDB REST API serving SAT fiscal catalogs using async Python and layered architecture.
           - Slashed catalog onboarding from hours to seconds by engineering Excel ingestion endpoints with Pydantic schema validation, blocking malformed records at the API boundary before reaching production.
     projects:
       - name: 'Lnap — Educational Programming Tools'
@@ -75,66 +78,82 @@ cv:
         highlights:
           - Delivered two tools under an institutional research contract — an interactive programming visualization platform and a pseudocode-to-Python translator — adopted in live lectures and validated by 80+ first-semester students.
 
-      - name: 'HealthMed Chat — Medical Diagnosis API'
-        start_date: 2024-03
-        end_date: 2024-05
-        location: Veracruz, Mexico
-        highlights:
-          - Engineered a medical diagnosis REST API combining rule-based filtering and KNN scoring to return a ranked Top-5 differential diagnosis from patient inputs (age, gender, BMI, symptoms), with full session logging for accuracy analysis.
+      # - name: 'HealthMed Chat — Medical Diagnosis API'
+      #   start_date: 2024-03
+      #   end_date: 2024-05
+      #   location: Veracruz, Mexico
+      #   highlights:
+      #     - Engineered a medical diagnosis REST API combining rule-based filtering and KNN scoring to return a ranked Top-5 differential diagnosis from patient inputs (age, gender, BMI, symptoms), with full session logging for accuracy analysis.
 
     skills:
       - label: Languages
-        details: Python, Java, JavaScript, TypeScript, SQL
-      - label: 'Backend & APIs'
-        details: FastAPI, Flask, Django, Spring Boot, Spring Cloud, Quarkus, Hibernate, SQLAlchemy, Alembic, Microservices, RESTful APIs, OpenAPI, async systems, Pydantic, Stripe API
-      - label: Testing
-        details: pytest, contract testing, test coverage
-      - label: Databases
-        details: MongoDB, PostgreSQL, Microsoft SQL Server, MySQL
-      - label: 'Infrastructure & Tooling'
-        details: Docker, Kubernetes, Git, CI/CD, AWS (ECS, Cognito, CloudFront), GCP, Microsoft Azure, Terraform, Linux CLI, Shell Scripting
-      - label: Frontend
-        details: React, Angular, Electron, Jest
-      - label: 'Data & Analytics'
-        details: ETL pipelines, Power BI, data automation, Matplotlib, Plotly
-      - label: Practices
-        details: Agile/Scrum, Sprint Planning, Software Architecture
+        details: Python, Java, SQL
+      - label: Backend
+        details: FastAPI, Flask, Quarkus, SQLAlchemy, Pydantic, REST APIs, pytest
+      - label: 'Data & Cloud'
+        details: PostgreSQL, MongoDB, MySQL, AWS, GCP, Docker, Kubernetes, Terraform, CI/CD, Git
+      - label: 'AI & ML'
+        details: Claude Code, Codex, Ollama, OpenAI API, scikit-learn, KNN, Decision Trees, Naive Bayes
+      # Previous version, before trimming to what the CV backs up:
+      # - label: Languages
+      #   details: Python, Java, SQL, TypeScript
+      # - label: Backend
+      #   details: FastAPI, Flask, Quarkus, SQLAlchemy, Pydantic, REST APIs, OpenAPI, Microservices, async (asyncio), pytest
+      # - label: Databases
+      #   details: PostgreSQL, MongoDB (NoSQL), MySQL
+      # - label: 'Cloud & DevOps'
+      #   details: AWS, GCP, Docker, Kubernetes, Terraform, CI/CD, Git, ETL Pipelines
+      # - label: Testing
+      #   details: pytest, Contract Testing
+      # - label: Data Engineering
+      #   details: ETL Pipelines, Data Automation
+      # - label: Also familiar with
+      #   details: Django, Spring Boot, JavaScript, React, Angular, Azure, Microsoft SQL Server, Power BI
 
     certifications:
-      - 'Building Scalable Java Microservices with Spring Boot and Spring Cloud — Google Cloud (Sep 2026)'
-      - 'MongoDB Overview (Core Concepts & Architecture) and Reliability & Availability — MongoDB (Sep 2026)'
-      - 'Google Agile Essentials — Google (May 2026)'
-      - 'Django Application Development with SQL and Databases — IBM (Oct 2025)'
-      - 'Developing AI Applications with Python and Flask — IBM (May 2025)'
-      - 'Python for Data Science, AI & Development — IBM (May 2025)'
-      - 'Python Essentials 1 & 2 — Cisco (May 2025)'
-      - 'Samsung Innovation Campus — AI & Leadership, Samsung & UDEM (Apr 2025)'
+      - '**Google Cloud:** Building Scalable Java Microservices with Spring Boot and Spring Cloud (Sep 2026)'
+      - '**MongoDB:** Core Concepts & Architecture; Reliability & Availability (Sep 2026). **IBM:** AI Applications with Python and Flask (May 2025)'
+      # Grouped by issuer, before trimming to fit one page:
+      # - '**Google Cloud:** Building Scalable Java Microservices with Spring Boot and Spring Cloud (Sep 2026); Agile Essentials (May 2026)'
+      # - '**MongoDB:** Core Concepts & Architecture; Reliability & Availability (Sep 2026)'
+      # - '**IBM:** Django Application Development with SQL (Oct 2025); AI Applications with Python and Flask; Python for Data Science, AI & Development (May 2025)'
+      # - '**Cisco:** Python Essentials 1 & 2 (May 2025). **Samsung & UDEM:** Samsung Innovation Campus, AI & Leadership (Apr 2025)'
+      # One per line, before grouping by issuer:
+      # - 'Building Scalable Java Microservices with Spring Boot and Spring Cloud — Google Cloud (Sep 2026)'
+      # - 'MongoDB Overview (Core Concepts & Architecture) and Reliability & Availability — MongoDB (Sep 2026)'
+      # - 'Google Agile Essentials — Google (May 2026)'
+      # - 'Django Application Development with SQL and Databases — IBM (Oct 2025)'
+      # - 'Developing AI Applications with Python and Flask — IBM (May 2025)'
+      # - 'Python for Data Science, AI & Development — IBM (May 2025)'
+      # - 'Python Essentials 1 & 2 — Cisco (May 2025)'
+      # - 'Samsung Innovation Campus — AI & Leadership, Samsung & UDEM (Apr 2025)'
 
 design:
-  theme: harvard
+  theme: sb2nov
   page:
-    top_margin: 1.3cm
-    bottom_margin: 1.3cm
-    left_margin: 1.5cm
-    right_margin: 1.5cm
+    top_margin: 0.9cm
+    bottom_margin: 0.9cm
+    left_margin: 1.3cm
+    right_margin: 1.3cm
     show_footer: false
   typography:
     alignment: justified-with-no-hyphenation
+    line_spacing: 0.55em
     font_size:
       body: 9.5pt
   header:
     connections:
       phone_number_format: international
       show_icons: true
-    space_below_name: 0.25cm
-    space_below_headline: 0.25cm
-    space_below_connections: 0.35cm
+    space_below_name: 0.2cm
+    space_below_headline: 0.2cm
+    space_below_connections: 0.25cm
   section_titles:
-    space_above: 0.25cm
-    space_below: 0.15cm
+    space_above: 0.2cm
+    space_below: 0.1cm
   sections:
-    space_between_regular_entries: 0.5em
-    space_between_text_based_entries: 0.15em
+    space_between_regular_entries: 0.35em
+    space_between_text_based_entries: 0.1em
   entries:
     date_and_location_width: 4.5cm
 

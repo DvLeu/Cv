@@ -7,35 +7,39 @@
 
 
 # Summary
-Software engineer with a production track record shipping **Python** & **Java** Server-side applications on Amazon Web Services and Google Cloud Platform, **ETL** pipelines, and automation systems that eliminate manual bottlenecks. English B2 / Spanish native.
+Software Engineer specializing in **Python** and **Java** backend development, with hands-on experience building production APIs, multi-tenant systems, and cloud-native applications on **AWS** and **GCP**. Skilled in **REST API** design, authentication, database architecture, and data automation, with demonstrated results improving operational efficiency by up to 180×. English B2.
 
 # Education
-## **Universidad Cristóbal Colón**, M.S. in Data Science, Computer Science -- Veracruz, Mexico
+## **Universidad Cristóbal Colón**
+*Veracruz, Mexico*
+
+
+*Sept 2026 – present*
+
+*M.S.* *in* *Data Science, Computer Science*
 
 
 
-
-Sept 2026 – present
-
-
-
-## **TecNM Instituto Tecnológico de Veracruz**, B.S. in Computer Systems Engineering -- Veracruz, Mexico
+## **TecNM Instituto Tecnológico de Veracruz**
+*Veracruz, Mexico*
 
 
+*Aug 2021 – May 2026*
 
+*B.S.* *in* *Computer Systems Engineering*
 
-Aug 2021 – May 2026
-
-- GPA: 3.6/4.0; active member of the Competitive Programming Club (CPC), practicing algorithms, data structures, and problem-solving under contest constraints.
-
-- Competitively selected as institutional research intern to develop LNAP, an educational platform serving 90+ active students.
+- GPA: 3.6/4.0; member of the Competitive Programming Club (CPC).
 
 
 
 # Experience
-## **ScaleFlow Technologies**, Software Engineer -- Monterrey, Mexico
+## **Software Engineer**
 
-Aug 2026 – present
+*Monterrey, Mexico*
+
+*Aug 2026 – present*
+
+*ScaleFlow Technologies*
 
 - Built authentication, role-based access and tenant isolation for PROFILE 7, a multi-tenant HR platform, using **FastAPI**, **PostgreSQL** Row-Level Security and **AWS** Cognito.
 
@@ -45,85 +49,69 @@ Aug 2026 – present
 
 
 
-## **Alvasu**, Freelance Full-Stack Developer -- Veracruz, Mexico
+## **Freelance Full-Stack Developer**
 
-May 2026 – July 2026
+*Veracruz, Mexico*
 
-- Designed and delivered an offline-first desktop application (**React**, **Flask**, **SQLite**, **Electron**) for internal operations, enabling local data ownership with zero cloud dependency.
+*May 2026 – July 2026*
+
+*Alvasu*
+
+- Designed and delivered an offline-first desktop application (**React**, **Flask**, **SQLite**, **Electron**) for internal operations that works without internet.
 
 - Built a date-effective cost calculation engine to track ingredient price changes, preserve historical recipe costs, and support profit analysis across production periods.
 
-- Consolidated ingredient pricing, production logs, recipe management, sales records, and profit dashboards into a single workflow, reducing manual handoffs for the client.
 
 
+## **Data Engineer Intern**
 
-## **TenarisTamsa**, Data Engineer Intern -- Veracruz, Mexico
+*Veracruz, Mexico*
 
-Feb 2026 – June 2026
+*Feb 2026 – June 2026*
+
+*TenarisTamsa*
 
 - Built **Python** **ETL** pipelines unifying 5+ heterogeneous data sources (CSV, XML, Access, **Excel**, **SQL**), reclaiming ~1 hr/day of analyst time previously lost to manual aggregation.
 
-- Fixed a performance bottleneck, cutting a 30-min daily data collection task to under 10 sec (180× speedup) by deploying scheduled **Python** scrapers as standalone executables with structured logging for production-grade reliability.
+- Fixed a performance bottleneck, cutting a 30-min daily data collection task to under 10 sec (180× speedup) by deploying scheduled **Python** scrapers as standalone executables with structured logging.
 
 
 
-## **NeoDigital**, **Python** Backend Developer Intern -- Veracruz, Mexico
+## ****Python** Backend Developer Intern**
 
-Mar 2025 – Oct 2025
+*Veracruz, Mexico*
 
-- Architected and shipped a production **FastAPI** + **MongoDB** **REST API** serving SAT fiscal catalogs using **async** **Python** and layered architecture, delivering a scalable and maintainable service running in production.
+*Mar 2025 – Oct 2025*
+
+*NeoDigital*
+
+- Architected and shipped a production **FastAPI** + **MongoDB** **REST API** serving SAT fiscal catalogs using **async** **Python** and layered architecture.
 
 - Slashed catalog onboarding from hours to seconds by engineering **Excel** ingestion endpoints with **Pydantic** schema validation, blocking malformed records at the API boundary before reaching production.
 
 
 
 # Projects
-## **Lnap — Educational Programming Tools** -- **Veracruz, Mexico**
+## **Lnap — Educational Programming Tools**
 
-Sept 2025 – Nov 2025
+*Veracruz, Mexico*
+
+*Sept 2025 – Nov 2025*
 
 - Delivered two tools under an institutional research contract — an interactive programming visualization platform and a pseudocode-to-**Python** translator — adopted in live lectures and validated by 80+ first-semester students.
 
 
 
-## **HealthMed Chat — Medical Diagnosis API** -- **Veracruz, Mexico**
-
-Mar 2024 – May 2024
-
-- Engineered a medical diagnosis **REST API** combining rule-based filtering and **KNN** scoring to return a ranked Top-5 differential diagnosis from patient inputs (age, gender, BMI, symptoms), with full session logging for accuracy analysis.
-
-
-
 # Skills
-**Languages:** **Python**, **Java**, **JavaScript**, **TypeScript**, **SQL**
+**Languages:** **Python**, **Java**, **SQL**
 
-**Backend & APIs:** **FastAPI**, **Flask**, **Django**, **Spring Boot**, Spring Cloud, Quarkus, Hibernate, SQLAlchemy, Alembic, Microservices, **RESTful APIs**, **OpenAPI**, **async** systems, **Pydantic**, Stripe API
+**Backend:** **FastAPI**, **Flask**, Quarkus, SQLAlchemy, **Pydantic**, REST APIs, **pytest**
 
-**Testing:** **pytest**, contract testing, test coverage
+**Data & Cloud:** **PostgreSQL**, **MongoDB**, **MySQL**, **AWS**, **GCP**, **Docker**, **Kubernetes**, **Terraform**, **CI/CD**, **Git**
 
-**Databases:** **MongoDB**, **PostgreSQL**, **Microsoft SQL Server**, **MySQL**
-
-**Infrastructure & Tooling:** **Docker**, **Kubernetes**, **Git**, **CI/CD**, **AWS** (ECS, Cognito, CloudFront), **GCP**, Microsoft **Azure**, **Terraform**, **Linux** CLI, Shell Scripting
-
-**Frontend:** **React**, **Angular**, **Electron**, **Jest**
-
-**Data & Analytics:** **ETL** pipelines, **Power BI**, data automation, **Matplotlib**, **Plotly**
-
-**Practices:** Agile/Scrum, Sprint Planning, Software Architecture
+**AI & ML:** Claude Code, Codex, Ollama, OpenAI API, scikit-learn, **KNN**, Decision Trees, Naive Bayes
 
 # Certifications
-Building Scalable **Java** Microservices with **Spring Boot** and Spring Cloud — Google Cloud (Sep 2026)
+**Google Cloud:** Building Scalable **Java** Microservices with **Spring Boot** and Spring Cloud (Sep 2026)
 
-**MongoDB** Overview (Core Concepts & Architecture) and Reliability & Availability — **MongoDB** (Sep 2026)
-
-Google Agile Essentials — Google (May 2026)
-
-**Django** Application Development with **SQL** and Databases — IBM (Oct 2025)
-
-Developing AI Applications with **Python** and **Flask** — IBM (May 2025)
-
-**Python** for Data Science, AI & Development — IBM (May 2025)
-
-**Python** Essentials 1 & 2 — Cisco (May 2025)
-
-Samsung Innovation Campus — AI & Leadership, Samsung & UDEM (Apr 2025)
+****MongoDB**:** Core Concepts & Architecture; Reliability & Availability (Sep 2026). **IBM:** AI Applications with **Python** and **Flask** (May 2025)
