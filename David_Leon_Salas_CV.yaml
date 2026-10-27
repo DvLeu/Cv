@@ -38,8 +38,8 @@ cv:
         location: Monterrey, Mexico
         highlights:
           - Built authentication, role-based access and tenant isolation for PROFILE 7, a multi-tenant HR platform, using FastAPI, PostgreSQL Row-Level Security and AWS Cognito.
-          - Designed and deployed odin-api, a Flask service with an OpenAPI contract, JWT auth and pytest contract tests, and connected it to PROFILE 7 on AWS (ECS, CloudFront, Terraform).
-          - Integrated Stripe payments and helped design the database for FixNow, an on-demand repair services marketplace (Java/Quarkus, Kubernetes on GCP).
+          - Designed and deployed odin-api, a Flask service with an OpenAPI contract, JWT auth and pytest contract tests, connected it to PROFILE 7 on AWS (ECS, CloudFront, Terraform), and wrote its technical documentation.
+          - Integrated Stripe payments and designed data models with the business team for FixNow, an on-demand repair services marketplace (Java/Quarkus, Kubernetes on GCP).
       - company: Alvasu
         position: Freelance Full-Stack Developer
         start_date: 2026-05
@@ -57,7 +57,7 @@ cv:
         location: Veracruz, Mexico
         highlights:
           - Built Python ETL pipelines unifying 5+ heterogeneous data sources (CSV, XML, Access, Excel, SQL), reclaiming ~1 hr/day of analyst time previously lost to manual aggregation.
-          - Reduced a 30-min daily data collection task to under 10 sec (180× speedup) by deploying scheduled Python scrapers as standalone executables with structured logging for production-grade reliability.
+          - Fixed a performance bottleneck, cutting a 30-min daily data collection task to under 10 sec (180× speedup) by deploying scheduled Python scrapers as standalone executables with structured logging for production-grade reliability.
 
       - company: NeoDigital
         position: Python Backend Developer Intern

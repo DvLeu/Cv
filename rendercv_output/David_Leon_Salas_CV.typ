@@ -155,9 +155,9 @@ Software engineer with a production track record shipping #strong[Python] & #str
   main-column-second-row: [
     - Built authentication, role-based access and tenant isolation for PROFILE 7, a multi-tenant HR platform, using #strong[FastAPI], #strong[PostgreSQL] Row-Level Security and #strong[AWS] Cognito.
 
-    - Designed and deployed odin-api, a #strong[Flask] service with an #strong[OpenAPI] contract, JWT auth and #strong[pytest] contract tests, and connected it to PROFILE 7 on #strong[AWS] (ECS, CloudFront, #strong[Terraform]).
+    - Designed and deployed odin-api, a #strong[Flask] service with an #strong[OpenAPI] contract, JWT auth and #strong[pytest] contract tests, connected it to PROFILE 7 on #strong[AWS] (ECS, CloudFront, #strong[Terraform]), and wrote its technical documentation.
 
-    - Integrated Stripe payments and helped design the database for FixNow, an on-demand repair services marketplace (#strong[Java]\/Quarkus, #strong[Kubernetes] on #strong[GCP]).
+    - Integrated Stripe payments and designed data models with the business team for FixNow, an on-demand repair services marketplace (#strong[Java]\/Quarkus, #strong[Kubernetes] on #strong[GCP]).
 
   ],
 )
@@ -193,7 +193,7 @@ Software engineer with a production track record shipping #strong[Python] & #str
   main-column-second-row: [
     - Built #strong[Python] #strong[ETL] pipelines unifying 5+ heterogeneous data sources (CSV, XML, Access, #strong[Excel], #strong[SQL]), reclaiming \~1 hr\/day of analyst time previously lost to manual aggregation.
 
-    - Reduced a 30-min daily data collection task to under 10 sec (180× speedup) by deploying scheduled #strong[Python] scrapers as standalone executables with structured logging for production-grade reliability.
+    - Fixed a performance bottleneck, cutting a 30-min daily data collection task to under 10 sec (180× speedup) by deploying scheduled #strong[Python] scrapers as standalone executables with structured logging for production-grade reliability.
 
   ],
 )
