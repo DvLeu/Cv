@@ -2,12 +2,12 @@
 
 - Phone: +52 229 177 9456
 - Email: [davidleonsalasdev@gmail.com](mailto:davidleonsalasdev@gmail.com)
-- Location: Veracruz, Ver
+- Location: Veracruz, Mexico (open to remote)
 - GitHub: [DvLeu](https://github.com/DvLeu)
 
 
 # Summary
-Software engineer with a production track record shipping **Python** APIs, **ETL** pipelines, and automation systems that eliminate manual bottlenecks. English B2 / Spanish native.
+Software engineer with a production track record shipping **Python** & **Java** Server-side applications on Amazon Web Services and Google Cloud Platform, **ETL** pipelines, and automation systems that eliminate manual bottlenecks. English B2 / Spanish native.
 
 # Education
 ## **Universidad Cristóbal Colón**, M.S. in Data Science, Computer Science -- Veracruz, Mexico
@@ -33,15 +33,15 @@ Aug 2021 – May 2026
 
 
 # Experience
-## **Scaleflow technologies**, Software Engineer -- Monterrey, Mexico
+## **ScaleFlow Technologies**, Software Engineer -- Monterrey, Mexico
 
 Aug 2026 – present
 
-- Resolve backend development tickets across **Python**/**FastAPI** and **Java** projects.
+- Built authentication, role-based access and tenant isolation for PROFILE 7, a multi-tenant HR platform, using **FastAPI**, **PostgreSQL** Row-Level Security and **AWS** Cognito.
 
-- Contribute to microservices development, debugging, and integration across backend services.
+- Designed and deployed odin-api, a **Flask** service with an **OpenAPI** contract, JWT auth and **pytest** contract tests, and connected it to PROFILE 7 on **AWS** (ECS, CloudFront, **Terraform**).
 
-- Work with **AWS**, **Terraform**, and **Docker** to support cloud infrastructure and deployments.
+- Integrated Stripe payments and helped design the database for FixNow, an on-demand repair services marketplace (**Java**/Quarkus, **Kubernetes** on **GCP**).
 
 
 
@@ -97,15 +97,19 @@ Mar 2024 – May 2024
 # Skills
 **Languages:** **Python**, **Java**, **JavaScript**, **TypeScript**, **SQL**
 
-**Backend & APIs:** **FastAPI**, **Flask**, **Django**, **Spring Boot**, Spring Cloud, Hibernate, Microservices, **RESTful APIs**, **async** systems, **Pydantic**
+**Backend & APIs:** **FastAPI**, **Flask**, **Django**, **Spring Boot**, Spring Cloud, Quarkus, Hibernate, SQLAlchemy, Alembic, Microservices, **RESTful APIs**, **OpenAPI**, **async** systems, **Pydantic**, Stripe API
+
+**Testing:** **pytest**, contract testing, test coverage
 
 **Databases:** **MongoDB**, **PostgreSQL**, **Microsoft SQL Server**, **MySQL**
 
-**Infrastructure & Tooling:** **Docker**, **Git**, **CI/CD**, Microsoft **Azure**, Amazon Web Services, **Terraform**, **Linux** CLI
+**Infrastructure & Tooling:** **Docker**, **Kubernetes**, **Git**, **CI/CD**, **AWS** (ECS, Cognito, CloudFront), **GCP**, Microsoft **Azure**, **Terraform**, **Linux** CLI, Shell Scripting
+
+**Frontend:** **React**, **Angular**, **Electron**, **Jest**
 
 **Data & Analytics:** **ETL** pipelines, **Power BI**, data automation, **Matplotlib**, **Plotly**
 
-**Practices:** Agile/Scrum, Sprint Planning, Software Architecture, Business Continuity & High Availability
+**Practices:** Agile/Scrum, Sprint Planning, Software Architecture
 
 # Certifications
 Building Scalable **Java** Microservices with **Spring Boot** and Spring Cloud — Google Cloud (Sep 2026)

@@ -25,7 +25,7 @@
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
   typography-line-spacing: 0.6em,
-  typography-alignment: "justified",
+  typography-alignment: "justified-with-no-hyphenation",
   typography-date-and-location-column-alignment: right,
   typography-font-family-body: "XCharter",
   typography-font-family-name: "XCharter",
@@ -91,9 +91,9 @@
   #headline([Software Engineer | Backend & Data Automation])
 
 #connections(
-  [#connection-with-icon("location-dot")[Veracruz, Ver]],
+  [#connection-with-icon("location-dot")[Veracruz, Mexico (open to remote)]],
   [#link("mailto:davidleonsalasdev@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[davidleonsalasdev\@gmail.com]]],
-  [#link("tel:+52-229-177-9456", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[229 177 9456]]],
+  [#link("tel:+52-229-177-9456", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[+52 229 177 9456]]],
   [#link("https://github.com/DvLeu", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[DvLeu]]],
   [#link("https://www.dvleu.dev/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("globe")[dvleu.dev]]],
 )
@@ -101,7 +101,7 @@
 
 == Summary
 
-Software engineer with a production track record shipping #strong[Python] APIs, #strong[ETL] pipelines, and automation systems that eliminate manual bottlenecks. English B2 \/ Spanish native.
+Software engineer with a production track record shipping #strong[Python] & #strong[Java] Server-side applications on Amazon Web Services and Google Cloud Platform, #strong[ETL] pipelines, and automation systems that eliminate manual bottlenecks. English B2 \/ Spanish native.
 
 == Education
 
@@ -145,7 +145,7 @@ Software engineer with a production track record shipping #strong[Python] APIs, 
 
 #regular-entry(
   [
-    #strong[Scaleflow technologies], Software Engineer -- Monterrey, Mexico
+    #strong[ScaleFlow Technologies], Software Engineer -- Monterrey, Mexico
 
   ],
   [
@@ -153,11 +153,11 @@ Software engineer with a production track record shipping #strong[Python] APIs, 
 
   ],
   main-column-second-row: [
-    - Resolve backend development tickets across #strong[Python]\/#strong[FastAPI] and #strong[Java] projects.
+    - Built authentication, role-based access and tenant isolation for PROFILE 7, a multi-tenant HR platform, using #strong[FastAPI], #strong[PostgreSQL] Row-Level Security and #strong[AWS] Cognito.
 
-    - Contribute to microservices development, debugging, and integration across backend services.
+    - Designed and deployed odin-api, a #strong[Flask] service with an #strong[OpenAPI] contract, JWT auth and #strong[pytest] contract tests, and connected it to PROFILE 7 on #strong[AWS] (ECS, CloudFront, #strong[Terraform]).
 
-    - Work with #strong[AWS], #strong[Terraform], and #strong[Docker] to support cloud infrastructure and deployments.
+    - Integrated Stripe payments and helped design the database for FixNow, an on-demand repair services marketplace (#strong[Java]\/Quarkus, #strong[Kubernetes] on #strong[GCP]).
 
   ],
 )
@@ -251,15 +251,19 @@ Software engineer with a production track record shipping #strong[Python] APIs, 
 
 #strong[Languages:] #strong[Python], #strong[Java], #strong[JavaScript], #strong[TypeScript], #strong[SQL]
 
-#strong[Backend & APIs:] #strong[FastAPI], #strong[Flask], #strong[Django], #strong[Spring Boot], Spring Cloud, Hibernate, Microservices, #strong[RESTful APIs], #strong[async] systems, #strong[Pydantic]
+#strong[Backend & APIs:] #strong[FastAPI], #strong[Flask], #strong[Django], #strong[Spring Boot], Spring Cloud, Quarkus, Hibernate, SQLAlchemy, Alembic, Microservices, #strong[RESTful APIs], #strong[OpenAPI], #strong[async] systems, #strong[Pydantic], Stripe API
+
+#strong[Testing:] #strong[pytest], contract testing, test coverage
 
 #strong[Databases:] #strong[MongoDB], #strong[PostgreSQL], #strong[Microsoft SQL Server], #strong[MySQL]
 
-#strong[Infrastructure & Tooling:] #strong[Docker], #strong[Git], #strong[CI\/CD], Microsoft #strong[Azure], Amazon Web Services, #strong[Terraform], #strong[Linux] CLI
+#strong[Infrastructure & Tooling:] #strong[Docker], #strong[Kubernetes], #strong[Git], #strong[CI\/CD], #strong[AWS] (ECS, Cognito, CloudFront), #strong[GCP], Microsoft #strong[Azure], #strong[Terraform], #strong[Linux] CLI, Shell Scripting
+
+#strong[Frontend:] #strong[React], #strong[Angular], #strong[Electron], #strong[Jest]
 
 #strong[Data & Analytics:] #strong[ETL] pipelines, #strong[Power BI], data automation, #strong[Matplotlib], #strong[Plotly]
 
-#strong[Practices:] Agile\/Scrum, Sprint Planning, Software Architecture, Business Continuity & High Availability
+#strong[Practices:] Agile\/Scrum, Sprint Planning, Software Architecture
 
 == Certifications
 

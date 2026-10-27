@@ -2,7 +2,7 @@
 cv:
   name: David León Salas
   headline: Software Engineer | Backend & Data Automation
-  location: Veracruz, Ver
+  location: Veracruz, Mexico (open to remote)
   email: davidleonsalasdev@gmail.com
   phone: +52 2291779456
   social_networks:
@@ -14,7 +14,7 @@ cv:
       placeholder: dvleu.dev
   sections:
     Summary:
-    - Software engineer with a production track record shipping Python APIs, ETL pipelines, and automation systems that eliminate manual bottlenecks. English B2 / Spanish native.
+    - Software engineer with a production track record shipping Python & Java Server-side applications on Amazon Web Services and Google Cloud Platform, ETL pipelines, and automation systems that eliminate manual bottlenecks. English B2 / Spanish native.
     education:
       - institution: Universidad Cristóbal Colón
         area: M.S. in Data Science, Computer Science
@@ -31,16 +31,15 @@ cv:
           - 'Competitively selected as institutional research intern to develop LNAP, an educational platform serving 90+ active students.'
 
     experience:
-      - company: Scaleflow technologies
+      - company: ScaleFlow Technologies
         position: Software Engineer
         start_date: 2026-08
         end_date: present
         location: Monterrey, Mexico
         highlights:
-        - Resolve backend development tickets across Python/FastAPI and Java projects.
-        - Contribute to microservices development, debugging, and integration across backend services.
-        - Work with AWS, Terraform, and Docker to support cloud infrastructure and deployments.
-      
+          - Built authentication, role-based access and tenant isolation for PROFILE 7, a multi-tenant HR platform, using FastAPI, PostgreSQL Row-Level Security and AWS Cognito.
+          - Designed and deployed odin-api, a Flask service with an OpenAPI contract, JWT auth and pytest contract tests, and connected it to PROFILE 7 on AWS (ECS, CloudFront, Terraform).
+          - Integrated Stripe payments and helped design the database for FixNow, an on-demand repair services marketplace (Java/Quarkus, Kubernetes on GCP).
       - company: Alvasu
         position: Freelance Full-Stack Developer
         start_date: 2026-05
@@ -87,15 +86,19 @@ cv:
       - label: Languages
         details: Python, Java, JavaScript, TypeScript, SQL
       - label: 'Backend & APIs'
-        details: FastAPI, Flask, Django, Spring Boot, Spring Cloud, Hibernate, Microservices, RESTful APIs, async systems, Pydantic
+        details: FastAPI, Flask, Django, Spring Boot, Spring Cloud, Quarkus, Hibernate, SQLAlchemy, Alembic, Microservices, RESTful APIs, OpenAPI, async systems, Pydantic, Stripe API
+      - label: Testing
+        details: pytest, contract testing, test coverage
       - label: Databases
         details: MongoDB, PostgreSQL, Microsoft SQL Server, MySQL
       - label: 'Infrastructure & Tooling'
-        details: Docker, Git, CI/CD, Microsoft Azure, Amazon Web Services, Terraform, Linux CLI
+        details: Docker, Kubernetes, Git, CI/CD, AWS (ECS, Cognito, CloudFront), GCP, Microsoft Azure, Terraform, Linux CLI, Shell Scripting
+      - label: Frontend
+        details: React, Angular, Electron, Jest
       - label: 'Data & Analytics'
         details: ETL pipelines, Power BI, data automation, Matplotlib, Plotly
       - label: Practices
-        details: Agile/Scrum, Sprint Planning, Software Architecture, Business Continuity & High Availability
+        details: Agile/Scrum, Sprint Planning, Software Architecture
 
     certifications:
       - 'Building Scalable Java Microservices with Spring Boot and Spring Cloud — Google Cloud (Sep 2026)'
@@ -116,10 +119,12 @@ design:
     right_margin: 1.5cm
     show_footer: false
   typography:
+    alignment: justified-with-no-hyphenation
     font_size:
       body: 9.5pt
   header:
     connections:
+      phone_number_format: international
       show_icons: true
     space_below_name: 0.25cm
     space_below_headline: 0.25cm
@@ -190,3 +195,9 @@ settings:
     - KNN
     - Spring Boot
     - Terraform
+    - pytest
+    - Kubernetes
+    - GCP
+    - OpenAPI
+    - Angular
+    - Jest
